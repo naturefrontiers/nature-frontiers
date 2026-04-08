@@ -1,0 +1,55 @@
+name: Nature Frontiers RSS Aggregator
+
+on:
+  schedule:
+    # Runs every hour at minute 0
+    - cron: '0 * * * *'
+  workflow_dispatch: # Allows manual trigger for testing
+
+permissions:
+  contents: write
+
+jobs:
+  aggregate:
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.9'
+
+      - name: Install Dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+
+      - name: Run Aggregator Script
+        id: run_script
+        run: |
+          python scripts/aggregator.py >> output.log 2>&1
+          # Capture the flag printed by the script
+          if grep -q "CHANGES_DETECTED=true" output.log; then
+            echo "changes_detected=true" >> $GITHUB_OUTPUT
+          else
+            echo "changes_detected=false" >> $GITHUB_OUTPUT
+          fi
+        shell: bash
+
+      - name: Display Logs
+        if: always()
+        run: cat output.log
+
+      - name: Commit and Push Changes
+        if: steps.run_script.outputs.changes_detected == 'true'
+        run: |
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
+          git add data/state.json output/feed.xml output/social_queue.md
+          git commit -m "chore: Update RSS feed and social queue [skip ci]"
+          git push
