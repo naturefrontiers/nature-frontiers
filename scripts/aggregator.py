@@ -6,7 +6,10 @@ from datetime import datetime, timezone
 from pathlib import Path
 
 import feedparser
-from feedgenerator.django.utils.feedgenerator import Rss201rev2Feed
+try:
+    from feedgenerator import Rss201rev2Feed
+except ImportError:
+    from feedgenerator.django.utils.feedgenerator import Rss201rev2Feed
 from dateutil import parser as date_parser
 
 # --- Configuration ---
@@ -91,7 +94,7 @@ def fetch_feed(url, source_id, state):
                 item["thumbnail"] = entry.enclosures[0]['href']
             
             # Detect YouTube
-            if "youtube.com" in url or "youtu.be" in item["link"]:
+            if "youtube.com" in item["link"] or "youtu.be" in item["link"]:
                 item["is_youtube"] = True
                 # Ensure clean watch URL
                 if "watch?v=" not in item["link"] and "youtu.be/" in item["link"]:
@@ -119,7 +122,7 @@ def generate_social_queue(youtube_items):
     
     for item in youtube_items:
         # Clean description for social (first 200 chars)
-        clean_desc = item["description"].replace('<p>', '').replace('</p>', '').replace('<br>', '')
+        clean_desc = item["description"].replace('<p>', '').replace('</p>', '').replace('<br>', '').replace('</br>', '').replace('<br/>', '')
         snippet = clean_desc[:200] + "..." if len(clean_desc) > 200 else clean_desc
         
         content += f"## 🎥 {item['title']}\n\n"
@@ -129,7 +132,7 @@ def generate_social_queue(youtube_items):
         content += f"👉 Watch now: {item['link']}\n\n"
         content += f"**Hashtags:**\n"
         content += f"#Wildlife #Nature #Conservation #YouTube #NatureFrontiers\n\n"
-        content += f"**Thumbnail URL:** `{item['thumbnail']}`\n"
+        content += f"**Thumbnail URL:** `{{item['thumbnail']}}`\n"
         content += f"**Direct Link:** {item['link']}\n\n"
         content += "---\n\n"
     
@@ -151,13 +154,22 @@ def generate_rss_feed(all_items):
     sorted_items = sorted(all_items, key=lambda x: x["pub_date"], reverse=True)
     
     for item in sorted_items:
+        # Prepare enclosures with proper format
+        enclosures = []
+        if item["thumbnail"]:
+            enclosures.append({
+                'url': item["thumbnail"],
+                'type': 'image/jpeg',
+                'length': 0
+            })
+        
         feed.add_item(
             title=item["title"],
             link=item["link"],
             description=item["description"],
             pubdate=item["pub_date"],
             unique_id=item["guid"],
-            enclosures=[item["thumbnail"]] if item["thumbnail"] else [],
+            enclosures=enclosures,
             categories=[item["source_id"]]
         )
     
