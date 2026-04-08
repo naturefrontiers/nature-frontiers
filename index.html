@@ -3,153 +3,149 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Nature Frontiers Dashboard</title>
+    <title>Nature Frontiers | Live Dashboard</title>
     <style>
-        :root { --primary: #2c5f2d; --accent: #97bc62; --bg: #f4f9f4; --text: #333; }
-        body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; background: var(--bg); color: var(--text); margin: 0; padding: 20px; }
+        :root { --primary: #2e7d32; --bg: #f5f9f5; --card: #ffffff; --text: #1a1a1a; --danger: #d32f2f; --warning: #f57c00; }
+        body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; background: var(--bg); color: var(--text); margin: 0; padding: 20px; line-height: 1.6; }
         .container { max-width: 1000px; margin: 0 auto; }
         header { text-align: center; margin-bottom: 30px; }
         h1 { color: var(--primary); margin-bottom: 5px; }
-        .status-badge { display: inline-block; padding: 5px 15px; border-radius: 20px; font-weight: bold; color: white; }
-        .status-online { background-color: #28a745; }
-        .status-offline { background-color: #dc3545; }
+        .status-badge { display: inline-block; padding: 8px 16px; border-radius: 20px; font-weight: bold; font-size: 0.9em; }
+        .status-online { background: #e8f5e9; color: var(--primary); border: 1px solid var(--primary); }
+        .status-offline { background: #ffebee; color: var(--danger); border: 1px solid var(--danger); }
+        
         .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 20px; margin-bottom: 30px; }
-        .card { background: white; padding: 20px; border-radius: 10px; box-shadow: 0 2px 5px rgba(0,0,0,0.05); text-align: center; }
-        .card h3 { margin: 0 0 10px 0; color: #666; font-size: 0.9em; text-transform: uppercase; }
+        .card { background: var(--card); padding: 20px; border-radius: 12px; box-shadow: 0 2px 5px rgba(0,0,0,0.05); text-align: center; }
+        .card h3 { margin: 0 0 10px 0; font-size: 0.9em; color: #666; text-transform: uppercase; letter-spacing: 1px; }
         .card .number { font-size: 2.5em; font-weight: bold; color: var(--primary); }
-        .section { background: white; padding: 25px; border-radius: 10px; box-shadow: 0 2px 5px rgba(0,0,0,0.05); margin-bottom: 20px; }
-        .btn { display: inline-block; padding: 10px 20px; background: var(--primary); color: white; text-decoration: none; border-radius: 5px; margin-right: 10px; margin-top: 10px; }
-        .btn:hover { background: #1e4220; }
-        table { width: 100%; border-collapse: collapse; margin-top: 15px; }
-        th, td { text-align: left; padding: 12px; border-bottom: 1px solid #eee; }
-        th { color: #666; font-weight: 600; }
-        .type-yt { color: #ff0000; font-weight: bold; }
-        .type-art { color: #007bff; }
-        #error-msg { color: red; display: none; margin-top: 20px; text-align: center; }
+        
+        .section-title { font-size: 1.2em; font-weight: bold; margin: 30px 0 15px 0; border-bottom: 2px solid #ddd; padding-bottom: 10px; }
+        .content-list { list-style: none; padding: 0; }
+        .content-item { background: var(--card); padding: 15px; margin-bottom: 10px; border-radius: 8px; border-left: 4px solid var(--primary); display: flex; justify-content: space-between; align-items: center; }
+        .content-item.youtube { border-left-color: #ff0000; }
+        .content-item.article { border-left-color: #2e7d32; }
+        .item-info { flex: 1; }
+        .item-title { font-weight: bold; display: block; margin-bottom: 5px; }
+        .item-meta { font-size: 0.85em; color: #666; }
+        .btn { display: inline-block; padding: 8px 16px; background: var(--primary); color: white; text-decoration: none; border-radius: 6px; font-size: 0.9em; transition: background 0.2s; }
+        .btn:hover { background: #1b5e20; }
+        .btn-secondary { background: #555; }
+        .error-box { background: #ffebee; color: var(--danger); padding: 20px; border-radius: 8px; text-align: center; margin-top: 20px; display: none; }
+        
+        @media (max-width: 600px) { .content-item { flex-direction: column; align-items: flex-start; gap: 10px; } }
     </style>
 </head>
 <body>
     <div class="container">
         <header>
             <h1>🌿 Nature Frontiers</h1>
-            <p>Live Automation Dashboard</p>
-            <span id="status" class="status-badge status-offline">Checking...</span>
+            <p>Automated RSS & Social Aggregator</p>
+            <div id="statusBadge" class="status-badge status-offline">Checking Status...</div>
         </header>
 
-        <div id="error-msg"></div>
+        <div id="errorBox" class="error-box">
+            <strong>⚠️ System Offline</strong><br>
+            Could not load feed.xml. <a href="https://github.com/naturefrontiers/nature-frontiers/actions" target="_blank" style="color:inherit;text-decoration:underline;">Check Workflow Logs</a> or wait 2 mins for GitHub Pages to update.
+        </div>
 
         <div class="grid">
             <div class="card">
                 <h3>Total Items</h3>
-                <div class="number" id="total-count">-</div>
+                <div class="number" id="totalCount">-</div>
             </div>
             <div class="card">
                 <h3>YouTube Videos</h3>
-                <div class="number" id="yt-count">-</div>
+                <div class="number" id="ytCount">-</div>
             </div>
             <div class="card">
                 <h3>Articles</h3>
-                <div class="number" id="art-count">-</div>
+                <div class="number" id="artCount">-</div>
             </div>
             <div class="card">
-                <h3>Last Updated</h3>
-                <div class="number" style="font-size: 1.2em;" id="last-updated">-</div>
+                <h3>Last Update</h3>
+                <div class="number" style="font-size: 1.2em;" id="lastUpdate">-</div>
             </div>
         </div>
 
-        <div class="section">
-            <h2>🚀 Quick Actions</h2>
-            <a href="feed.xml" target="_blank" class="btn">View Raw RSS Feed</a>
-            <a href="output/social_queue.md" target="_blank" class="btn">Open Social Queue</a>
-            <a href="https://github.com/naturefrontiers/nature-frontiers/actions" target="_blank" class="btn">Workflow Logs</a>
-        </div>
+        <div class="section-title">Latest Content</div>
+        <ul class="content-list" id="contentList">
+            <li style="text-align:center; color:#666;">Loading...</li>
+        </ul>
 
-        <div class="section">
-            <h2>📰 Latest Content</h2>
-            <table id="content-table">
-                <thead>
-                    <tr>
-                        <th>Type</th>
-                        <th>Title</th>
-                        <th>Source</th>
-                        <th>Link</th>
-                    </tr>
-                </thead>
-                <tbody><!-- Items loaded here --></tbody>
-            </table>
+        <div style="margin-top: 40px; text-align: center;">
+            <a href="feed.xml" target="_blank" class="btn">📡 View Raw RSS Feed</a>
+            <a href="output/social_queue.md" target="_blank" class="btn btn-secondary">📝 Social Media Queue</a>
+            <a href="https://github.com/naturefrontiers/nature-frontiers/actions" target="_blank" class="btn btn-secondary">⚙️ Workflow Logs</a>
         </div>
     </div>
 
     <script>
-        const FEED_URL = 'feed.xml?t=' + new Date().getTime(); // Cache buster
+        // Add timestamp to bypass cache
+        const FEED_URL = 'feed.xml?t=' + new Date().getTime();
         
         async function loadDashboard() {
             try {
                 const response = await fetch(FEED_URL);
-                if (!response.ok) throw new Error("Feed not found (404)");
+                if (!response.ok) throw new Error("Feed not found");
                 
-                const text = await response.text();
+                const str = await response.text();
                 const parser = new DOMParser();
-                const xml = parser.parseFromString(text, "text/xml");
+                const xml = parser.parseFromString(str, "text/xml");
                 
-                // Check for parsing errors
-                if (xml.querySelector("parsererror")) throw new Error("Invalid XML");
-
                 const items = xml.querySelectorAll("item");
-                const total = items.length;
+                if (items.length === 0) throw new Error("No items found");
+
+                // Update Stats
+                document.getElementById('statusBadge').className = 'status-badge status-online';
+                document.getElementById('statusBadge').textContent = '● System Online';
+                document.getElementById('totalCount').textContent = items.length;
+                
                 let ytCount = 0;
                 let artCount = 0;
-
-                const tbody = document.querySelector("#content-table tbody");
-                tbody.innerHTML = "";
+                const list = document.getElementById('contentList');
+                list.innerHTML = '';
 
                 items.forEach((item, index) => {
                     if (index >= 10) return; // Show only top 10
                     
-                    const title = item.querySelector("title")?.textContent || "No Title";
+                    const title = item.querySelector("title")?.textContent || "Untitled";
                     const link = item.querySelector("link")?.textContent || "#";
-                    const source = item.querySelector("category")?.textContent || "Unknown";
-                    const isYt = link.includes("youtube.com");
+                    const dateStr = item.querySelector("pubDate")?.textContent || "";
+                    const desc = item.querySelector("description")?.textContent || "";
+                    const isYoutube = link.includes("youtube.com");
                     
-                    if (isYt) ytCount++; else artCount++;
+                    if (isYoutube) ytCount++; else artCount++;
 
-                    const row = `
-                        <tr>
-                            <td><span class="${isYt ? 'type-yt' : 'type-art'}">${isYt ? '▶️ YouTube' : '📄 Article'}</span></td>
-                            <td>${title}</td>
-                            <td>${source}</td>
-                            <td><a href="${link}" target="_blank" style="color:var(--primary)">Watch/Read</a></td>
-                        </tr>
+                    const li = document.createElement("li");
+                    li.className = `content-item ${isYoutube ? 'youtube' : 'article'}`;
+                    li.innerHTML = `
+                        <div class="item-info">
+                            <span class="item-title">${isYoutube ? '📺 ' : '📰 '}${title}</span>
+                            <span class="item-meta">${dateStr}</span>
+                        </div>
+                        <a href="${link}" target="_blank" class="btn">View</a>
                     `;
-                    tbody.innerHTML += row;
+                    list.appendChild(li);
                 });
 
-                // Update Stats
-                document.getElementById("total-count").textContent = total;
-                document.getElementById("yt-count").textContent = ytCount;
-                document.getElementById("art-count").textContent = artCount;
+                document.getElementById('ytCount').textContent = ytCount;
+                document.getElementById('artCount').textContent = artCount;
                 
-                const lastBuild = xml.querySelector("lastBuildDate")?.textContent || new Date().toDateString();
-                document.getElementById("last-updated").textContent = new Date(lastBuild).toLocaleDateString();
-
-                document.getElementById("status").textContent = "● Online";
-                document.getElementById("status").className = "status-badge status-online";
+                const lastDate = items[0]?.querySelector("pubDate")?.textContent || "Just now";
+                document.getElementById('lastUpdate').textContent = new Date(lastDate).toLocaleDateString();
 
             } catch (err) {
                 console.error(err);
-                document.getElementById("status").textContent = "● Offline";
-                document.getElementById("status").className = "status-badge status-offline";
-                document.getElementById("error-msg").style.display = "block";
-                document.getElementById("error-msg").innerHTML = `
-                    <strong>Cannot load feed.</strong><br>
-                    1. Ensure <code>feed.xml</code> exists in the repo root.<br>
-                    2. Go to <a href="https://github.com/naturefrontiers/nature-frontiers/actions">Actions</a> and run the workflow manually.<br>
-                    3. Wait for a green checkmark, then refresh this page.
-                `;
+                document.getElementById('statusBadge').className = 'status-badge status-offline';
+                document.getElementById('statusBadge').textContent = '● Offline / No Data';
+                document.getElementById('errorBox').style.display = 'block';
+                document.getElementById('contentList').innerHTML = '<li style="text-align:center;">Waiting for data...</li>';
             }
         }
 
         loadDashboard();
+        // Refresh every 5 minutes
+        setInterval(loadDashboard, 300000);
     </script>
 </body>
 </html>
