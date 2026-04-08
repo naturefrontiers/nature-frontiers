@@ -1,20 +1,144 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <title>Nature Frontiers Dashboard</title>
-    <style>body{font-family:sans-serif;max-width:800px;margin:50px auto;line-height:1.6;}</style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nature Frontiers | Live Dashboard</title>
+    <style>
+        :root { --primary: #2c5f2d; --accent: #97bc62; --dark: #1a1a1a; --light: #f4f4f4; --danger: #d9534f; }
+        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; background: var(--dark); color: var(--light); margin: 0; padding: 20px; }
+        .container { max-width: 1000px; margin: 0 auto; }
+        header { text-align: center; margin-bottom: 30px; border-bottom: 2px solid var(--primary); padding-bottom: 20px; }
+        h1 { margin: 0; color: var(--accent); }
+        .status-bar { display: flex; justify-content: space-around; background: #333; padding: 15px; border-radius: 8px; margin-bottom: 20px; flex-wrap: wrap; }
+        .stat-box { text-align: center; padding: 10px; min-width: 150px; }
+        .stat-number { font-size: 2em; font-weight: bold; color: var(--accent); }
+        .stat-label { font-size: 0.9em; color: #aaa; }
+        .card { background: #2a2a2a; border-radius: 8px; padding: 20px; margin-bottom: 20px; box-shadow: 0 4px 6px rgba(0,0,0,0.3); }
+        .card h2 { margin-top: 0; border-left: 4px solid var(--accent); padding-left: 10px; }
+        table { width: 100%; border-collapse: collapse; margin-top: 10px; }
+        th, td { text-align: left; padding: 12px; border-bottom: 1px solid #444; }
+        th { color: var(--accent); }
+        tr:hover { background: #333; }
+        .badge { padding: 4px 8px; border-radius: 4px; font-size: 0.8em; font-weight: bold; }
+        .badge-yt { background: #ff0000; color: white; }
+        .badge-article { background: #007bff; color: white; }
+        .btn { display: inline-block; background: var(--primary); color: white; padding: 10px 20px; text-decoration: none; border-radius: 5px; margin-top: 10px; }
+        .btn:hover { background: var(--accent); color: var(--dark); }
+        #loading { text-align: center; padding: 20px; color: #aaa; }
+        .error { color: var(--danger); text-align: center; }
+    </style>
 </head>
 <body>
-    <h1>🌿 Nature Frontiers Automation</h1>
-    <p>Status: <strong>Active</strong></p>
-    
-    <h2>Links</h2>
-    <ul>
-        <li><a href="feed.xml">📡 Live RSS Feed</a> (For Feed Readers)</li>
-        <li><a href="output/social_queue.md">📝 Social Media Queue</a> (Copy captions here)</li>
-        <li><a href="https://github.com/naturefrontiers/nature-frontiers/actions">⚙️ Workflow Logs</a></li>
-    </ul>
-    
-    <p><em>Last updated: Check the Social Queue for latest videos.</em></p>
+    <div class="container">
+        <header>
+            <h1>🌿 Nature Frontiers Dashboard</h1>
+            <p>Live Aggregator Status & Content Feed</p>
+            <a href="output/social_queue.md" class="btn" target="_blank">📱 View Social Queue</a>
+            <a href="feed.xml" class="btn" target="_blank">📡 Raw RSS Feed</a>
+        </header>
+
+        <!-- Status Overview -->
+        <div class="status-bar">
+            <div class="stat-box">
+                <div class="stat-number" id="total-items">-</div>
+                <div class="stat-label">Total Items in Feed</div>
+            </div>
+            <div class="stat-box">
+                <div class="stat-number" id="yt-count">-</div>
+                <div class="stat-label">YouTube Videos</div>
+            </div>
+            <div class="stat-box">
+                <div class="stat-number" id="article-count">-</div>
+                <div class="stat-label">Articles</div>
+            </div>
+            <div class="stat-box">
+                <div class="stat-number" id="last-run">-</div>
+                <div class="stat-label">Last Updated</div>
+            </div>
+        </div>
+
+        <!-- Latest Content Table -->
+        <div class="card">
+            <h2>📰 Latest Content Actions</h2>
+            <div id="loading">Loading feed data...</div>
+            <table id="content-table" style="display:none;">
+                <thead>
+                    <tr>
+                        <th>Type</th>
+                        <th>Title</th>
+                        <th>Source</th>
+                        <th>Date</th>
+                        <th>Action</th>
+                    </tr>
+                </thead>
+                <tbody id="content-body"></tbody>
+            </table>
+            <div id="error-msg" class="error"></div>
+        </div>
+    </div>
+
+    <script>
+        // Fetch the RSS feed
+        fetch('feed.xml')
+            .then(response => {
+                if (!response.ok) throw new Error("Feed not found. Run the GitHub Action first.");
+                return response.text();
+            })
+            .then(str => {
+                const parser = new DOMParser();
+                const xml = parser.parseFromString(str, "text/xml");
+                const items = xml.querySelectorAll("item");
+                
+                if (items.length === 0) {
+                    document.getElementById('loading').innerText = "No items found yet. Run the workflow!";
+                    return;
+                }
+
+                // Update Stats
+                document.getElementById('total-items').innerText = items.length;
+                let ytCount = 0;
+                let artCount = 0;
+                
+                const tbody = document.getElementById('content-body');
+                
+                items.forEach(item => {
+                    const title = item.querySelector("title")?.textContent || "No Title";
+                    const link = item.querySelector("link")?.textContent || "#";
+                    const pubDate = item.querySelector("pubDate")?.textContent || "Unknown";
+                    const category = item.querySelector("category")?.textContent || "Unknown";
+                    
+                    // Determine Type
+                    const isYoutube = category.includes("yt_") || link.includes("youtube.com");
+                    const typeBadge = isYoutube 
+                        ? `<span class="badge badge-yt">YouTube</span>` 
+                        : `<span class="badge badge-article">Article</span>`;
+                    
+                    if (isYoutube) ytCount++; else artCount++;
+
+                    const row = `
+                        <tr>
+                            <td>${typeBadge}</td>
+                            <td><a href="${link}" target="_blank" style="color:white;text-decoration:none;">${title.substring(0, 60)}${title.length>60?'...':''}</a></td>
+                            <td>${category}</td>
+                            <td>${new Date(pubDate).toLocaleDateString()}</td>
+                            <td><a href="${link}" target="_blank" style="color:var(--accent);">Visit ↗</a></td>
+                        </tr>
+                    `;
+                    tbody.innerHTML += row;
+                });
+
+                document.getElementById('yt-count').innerText = ytCount;
+                document.getElementById('article-count').innerText = artCount;
+                document.getElementById('last-run').innerText = new Date().toLocaleTimeString();
+                
+                document.getElementById('loading').style.display = 'none';
+                document.getElementById('content-table').style.display = 'table';
+            })
+            .catch(err => {
+                document.getElementById('loading').style.display = 'none';
+                document.getElementById('error-msg').innerText = "Error: " + err.message + ". Make sure you have run the GitHub Action at least once.";
+            });
+    </script>
 </body>
 </html>
