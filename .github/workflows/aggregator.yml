@@ -2,7 +2,7 @@ name: Nature Frontiers RSS Aggregator
 
 on:
   schedule:
-    - cron: '0 * * * *' # Every hour
+    - cron: '0 * * * *'
   workflow_dispatch:
 
 permissions:
@@ -15,8 +15,6 @@ jobs:
     steps:
       - name: Checkout Repository
         uses: actions/checkout@v4
-        with:
-          fetch-depth: 0
 
       - name: Set up Python
         uses: actions/setup-python@v5
@@ -26,7 +24,21 @@ jobs:
       - name: Install Dependencies
         run: |
           python -m pip install --upgrade pip
-          pip install -r requirements.txt
+          if [ -f requirements.txt ]; then 
+            pip install -r requirements.txt; 
+          else 
+            echo "ERROR: requirements.txt not found!"; 
+            exit 1; 
+          fi
+
+      - name: Check File Structure
+        run: |
+          echo "Checking files..."
+          ls -R
+          if [ ! -f src/sources.json ]; then echo "ERROR: src/sources.json missing"; exit 1; fi
+          if [ ! -f scripts/aggregator.py ]; then echo "ERROR: scripts/aggregator.py missing"; exit 1; fi
+          if [ ! -f data/state.json ]; then echo "ERROR: data/state.json missing"; exit 1; fi
+          echo "All files found."
 
       - name: Run Aggregator Script
         id: run_script
@@ -34,40 +46,15 @@ jobs:
           python scripts/aggregator.py
           echo "Script finished."
 
-      - name: Check for Changes
-        id: check_changes
-        run: |
-          if git diff --quiet; then
-            echo "has_changes=false" >> $GITHUB_OUTPUT
-            echo "No new content found."
-          else
-            echo "has_changes=true" >> $GITHUB_OUTPUT
-            echo "New content found!"
-          fi
-
       - name: Commit and Push Changes
-        if: steps.check_changes.outputs.has_changes == 'true'
+        if: always()
         run: |
           git config --local user.email "github-actions[bot]@users.noreply.github.com"
           git config --local user.name "github-actions[bot]"
-          git add data/state.json feed.xml output/social_queue.md
-          # Force add even if files are large or weird
-          git commit -m "chore: Update feed and stats [skip ci]" || echo "Nothing to commit"
-          git push
-          echo "Changes pushed successfully."
-      
-      - name: Force Commit if Feed Missing
-        # This ensures feed.xml ALWAYS exists in the repo, even if script fails to update it
-        run: |
-          if [ ! -f feed.xml ]; then
-            echo "feed.xml missing! Creating fallback..."
-            cat > feed.xml << 'EOF'
-            <?xml version="1.0" encoding="UTF-8"?>
-            <rss version="2.0"><channel><title>Nature Frontiers</title><link>https://naturefrontiers.github.io/nature-frontiers/</link><description>Feed initialized</description></channel></rss>
-            EOF
-            git config --local user.email "github-actions[bot]@users.noreply.github.com"
-            git config --local user.name "github-actions[bot]"
-            git add feed.xml
-            git commit -m "fix: Restore missing feed.xml"
+          git add -A
+          if git diff --staged --quiet; then
+            echo "No changes to commit."
+          else
+            git commit -m "chore: Update feed and state [skip ci]"
             git push
           fi
