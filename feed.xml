@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+<channel>
+  <title>Nature Frontiers Aggregator</title>
+  <link>https://naturefrontiers.github.io/nature-frontiers/</link>
+  <description>Initializing feed...</description>
+  <item>
+    <title>System Initialized</title>
+    <link>https://naturefrontiers.github.io/nature-frontiers/</link>
+    <description>Feed is ready. Run workflow to fetch content.</description>
+    <pubDate>Mon, 01 Jan 2024 00:00:00 GMT</pubDate>
+  </item>
+</channel>
+</rss>
