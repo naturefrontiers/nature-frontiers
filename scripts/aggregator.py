@@ -7,147 +7,173 @@ from pathlib import Path
 
 import feedparser
 from feedgenerator.django.utils.feedgenerator import Rss201rev2Feed
+from dateutil import parser as date_parser
 
 # --- Configuration ---
 BASE_DIR = Path(__file__).parent.parent
 DATA_FILE = BASE_DIR / "data" / "state.json"
+OUTPUT_DIR = BASE_DIR / "output"
 SOURCES_FILE = BASE_DIR / "src" / "sources.json"
-FEED_FILE = BASE_DIR / "feed.xml"
-SOCIAL_FILE = BASE_DIR / "output" / "social_queue.md"
 
 # Ensure directories exist
-BASE_DIR.joinpath("data").mkdir(exist_ok=True)
-BASE_DIR.joinpath("output").mkdir(exist_ok=True)
+DATA_FILE.parent.mkdir(exist_ok=True)
+OUTPUT_DIR.mkdir(exist_ok=True)
 
+# Logging setup
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
 logger = logging.getLogger(__name__)
 
-def load_json(path, default):
-    if not path.exists():
-        logger.error(f"File not found: {path}")
-        return default
-    try:
-        with open(path, 'r') as f:
+def load_state():
+    if DATA_FILE.exists():
+        with open(DATA_FILE, 'r') as f:
             return json.load(f)
-    except Exception as e:
-        logger.error(f"Error reading {path}: {e}")
-        return default
+    return {"processed_guids": [], "last_run": None}
 
-def save_json(path, data):
-    with open(path, 'w') as f:
-        json.dump(data, f, indent=2)
+def save_state(state):
+    state["last_run"] = datetime.now(timezone.utc).isoformat()
+    with open(DATA_FILE, 'w') as f:
+        json.dump(state, f, indent=2)
 
-def get_guid(entry, source_id):
+def load_sources():
+    with open(SOURCES_FILE, 'r') as f:
+        return json.load(f)
+
+def get_unique_guid(entry, source_id):
     if hasattr(entry, 'id') and entry.id:
         return entry.id
     link = getattr(entry, 'link', '')
-    return hashlib.sha256(f"{source_id}:{link}".encode()).hexdigest()
+    title = getattr(entry, 'title', '')
+    unique_str = f"{source_id}:{link}:{title}"
+    return hashlib.sha256(unique_str.encode('utf-8')).hexdigest()
+
+def fetch_feed(url, source_id, state):
+    logger.info(f"Fetching: {source_id}")
+    try:
+        feed = feedparser.parse(url)
+        new_items = []
+        
+        for entry in feed.entries:
+            guid = get_unique_guid(entry, source_id)
+            
+            if guid in state["processed_guids"]:
+                continue
+            
+            item = {
+                "guid": guid,
+                "title": getattr(entry, 'title', 'No Title'),
+                "link": getattr(entry, 'link', ''),
+                "description": getattr(entry, 'summary', getattr(entry, 'description', '')),
+                "pub_date": None,
+                "thumbnail": None,
+                "source_id": source_id,
+                "is_youtube": False
+            }
+            
+            if hasattr(entry, 'published_parsed') and entry.published_parsed:
+                item["pub_date"] = datetime(*entry.published_parsed[:6], tzinfo=timezone.utc)
+            elif hasattr(entry, 'updated_parsed') and entry.updated_parsed:
+                item["pub_date"] = datetime(*entry.updated_parsed[:6], tzinfo=timezone.utc)
+            else:
+                item["pub_date"] = datetime.now(timezone.utc)
+
+            if 'media_thumbnail' in entry:
+                item["thumbnail"] = entry.media_thumbnail[0]['url']
+            elif 'enclosures' in entry and entry.enclosures[0].get('type', '').startswith('image'):
+                item["thumbnail"] = entry.enclosures[0]['href']
+            
+            if "youtube.com" in url or "youtu.be" in item["link"]:
+                item["is_youtube"] = True
+                if "watch?v=" not in item["link"] and "youtu.be/" in item["link"]:
+                    vid_id = item["link"].split("/")[-1]
+                    item["link"] = f"https://www.youtube.com/watch?v={vid_id}"
+
+            new_items.append(item)
+            state["processed_guids"].append(guid)
+            
+        return new_items
+    except Exception as e:
+        logger.error(f"Error fetching {source_id}: {str(e)}")
+        return []
+
+def generate_social_queue(youtube_items):
+    if not youtube_items:
+        return
+    
+    queue_file = OUTPUT_DIR / "social_queue.md"
+    timestamp = datetime.now().strftime("%Y-%m-%d %H:%M")
+    
+    content = f"# Social Media Queue - Generated {timestamp}\n\n"
+    content += "> **Instructions:** Copy the content below for each video and post manually.\n\n"
+    
+    for item in youtube_items:
+        clean_desc = item["description"].replace('<p>', '').replace('</p>', '').replace('<br>', '')
+        snippet = clean_desc[:200] + "..." if len(clean_desc) > 200 else clean_desc
+        
+        content += f"## 🎥 {item['title']}\n\n"
+        content += f"**Caption:**\n"
+        content += f"🌿 New Discovery! {item['title']}\n\n"
+        content += f"{snippet}\n\n"
+        content += f"👉 Watch now: {item['link']}\n\n"
+        content += f"**Hashtags:** #Wildlife #Nature #Conservation #YouTube\n\n"
+        content += f"**Thumbnail:** `{item['thumbnail']}`\n\n---\n\n"
+    
+    with open(queue_file, 'w', encoding='utf-8') as f:
+        f.write(content)
+
+def generate_rss_feed(all_items):
+    feed = Rss201rev2Feed(
+        title="Nature Frontiers Aggregator",
+        link="https://naturefrontiers.github.io/nature-frontiers/",
+        description="Curated wildlife and nature content.",
+        language="en"
+    )
+    
+    sorted_items = sorted(all_items, key=lambda x: x["pub_date"], reverse=True)
+    
+    for item in sorted_items:
+        feed.add_item(
+            title=item["title"],
+            link=item["link"],
+            description=item["description"],
+            pubdate=item["pub_date"],
+            unique_id=item["guid"],
+            enclosures=[item["thumbnail"]] if item["thumbnail"] else [],
+            categories=[item["source_id"]]
+        )
+    
+    output_path = BASE_DIR / "feed.xml"
+    with open(output_path, 'w', encoding='utf-8') as f:
+        feed.write(f, 'utf-8')
 
 def main():
-    logger.info("Starting Aggregator...")
+    logger.info("Starting Nature Frontiers Aggregator...")
+    state = load_state()
+    sources = load_sources()
     
-    # Load Config
-    sources = load_json(SOURCES_FILE, {"youtube_sources": [], "article_sources": []})
-    state = load_json(DATA_FILE, {"processed_guids": [], "last_run": None})
+    all_new_items = []
+    youtube_new_items = []
     
-    if not sources.get("youtube_sources") and not sources.get("article_sources"):
-        logger.error("No sources configured. Check src/sources.json")
-        return
-
-    all_items = []
-    youtube_items = []
-    new_count = 0
-
-    # Process All Sources
-    all_sources = sources.get("youtube_sources", []) + sources.get("article_sources", [])
+    for source in sources.get("youtube_sources", []):
+        items = fetch_feed(source["url"], source["id"], state)
+        for item in items:
+            all_new_items.append(item)
+            if item["is_youtube"]:
+                youtube_new_items.append(item)
     
-    for src in all_sources:
-        url = src.get('url')
-        sid = src.get('id')
-        stype = src.get('type')
-        
-        if not url: continue
-        
-        logger.info(f"Fetching: {sid}")
-        try:
-            feed = feedparser.parse(url)
-            for entry in feed.entries:
-                guid = get_guid(entry, sid)
-                
-                if guid in state["processed_guids"]:
-                    continue
-                
-                # New Item Found
-                new_count += 1
-                state["processed_guids"].append(guid)
-                
-                # Extract Data
-                title = getattr(entry, 'title', 'No Title')
-                link = getattr(entry, 'link', '')
-                summary = getattr(entry, 'summary', '')
-                
-                # Date
-                pub_date = datetime.now(timezone.utc)
-                if hasattr(entry, 'published_parsed') and entry.published_parsed:
-                    try:
-                        pub_date = datetime(*entry.published_parsed[:6], tzinfo=timezone.utc)
-                    except: pass
-                
-                # Thumbnail
-                thumb = None
-                if 'media_thumbnail' in entry:
-                    thumb = entry.media_thumbnail[0]['url']
-                
-                is_yt = stype == "youtube"
-                
-                item = {
-                    "title": title, "link": link, "description": summary,
-                    "pub_date": pub_date, "thumbnail": thumb, "is_youtube": is_yt,
-                    "source": sid
-                }
-                
-                all_items.append(item)
-                if is_yt:
-                    youtube_items.append(item)
-                    
-        except Exception as e:
-            logger.error(f"Failed {sid}: {e}")
-
-    if new_count > 0:
-        logger.info(f"Found {new_count} new items.")
-        
-        # 1. Generate RSS
-        feed_gen = Rss201rev2Feed(
-            title="Nature Frontiers Aggregator",
-            link="https://naturefrontiers.github.io/nature-frontiers/",
-            description="Curated wildlife content.",
-            language="en"
-        )
-        for item in sorted(all_items, key=lambda x: x['pub_date'], reverse=True):
-            feed_gen.add_item(
-                title=item['title'], link=item['link'], description=item['description'],
-                pubdate=item['pub_date'], unique_id=get_guid({'link': item['link']}, item['source']),
-                enclosures=[item['thumbnail']] if item['thumbnail'] else []
-            )
-        
-        with open(FEED_FILE, 'w', encoding='utf-8') as f:
-            feed_gen.write(f, 'utf-8')
-        logger.info("RSS Feed saved.")
-
-        # 2. Generate Social Queue
-        if youtube_items:
-            content = f"# Social Queue ({datetime.now().strftime('%Y-%m-%d')})\n\n"
-            for vid in youtube_items:
-                content += f"## 🎥 {vid['title']}\n🔗 {vid['link']}\n\n"
-            with open(SOCIAL_FILE, 'w', encoding='utf-8') as f:
-                f.write(content)
-            logger.info("Social Queue updated.")
-        
-        # 3. Save State
-        save_json(DATA_FILE, state)
+    for source in sources.get("article_sources", []):
+        items = fetch_feed(source["url"], source["id"], state)
+        for item in items:
+            all_new_items.append(item)
+    
+    if all_new_items:
+        logger.info(f"Found {len(all_new_items)} new items.")
+        generate_rss_feed(all_new_items)
+        if youtube_new_items:
+            generate_social_queue(youtube_new_items)
+        save_state(state)
         print("CHANGES_DETECTED=true")
     else:
-        logger.info("No new items.")
+        logger.info("No new items found.")
         print("CHANGES_DETECTED=false")
 
 if __name__ == "__main__":
