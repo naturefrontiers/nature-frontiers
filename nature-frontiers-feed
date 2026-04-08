@@ -1,0 +1,15 @@
+nature-frontiers-feed/
+├── .github/
+│   └── workflows/
+│       └── aggregator.yml      # The automation trigger
+├── data/
+│   └── state.json              # Tracks processed items (auto-generated)
+├── output/
+│   ├── feed.xml                # The public RSS feed (auto-generated)
+│   └── social_queue.md         # Ready-to-post captions for YouTube videos
+├── scripts/
+│   └── aggregator.py           # Main Python logic
+├── src/
+│   └── sources.json            # Configuration: List of all RSS URLs
+├── requirements.txt            # Python dependencies
+└── README.md                   # Documentation
