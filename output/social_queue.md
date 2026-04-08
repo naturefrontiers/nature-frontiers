@@ -1,4 +1,4 @@
-# Social Media Queue - Generated 2026-04-08 21:13
+# Social Media Queue - Generated 2026-04-08 21:18
 
 > **Instructions:** Copy the content below for each video and post manually.
 
@@ -224,6 +224,174 @@ Dive into a nature documentary that explores the formidable oceanic whitetip sha
 **Hashtags:** #Wildlife #Nature #Conservation #YouTube
 
 **Thumbnail:** `https://i3.ytimg.com/vi/ZCuwq3O4Hx8/hqdefault.jpg`
+
+---
+
+## 🎥 Not a Killer? Oceanic Whitetip EXPOSED!
+
+**Caption:**
+🌿 New Discovery! Not a Killer? Oceanic Whitetip EXPOSED!
+
+Oceanic whitetip shark facts, deadly ocean predators, shark attacks explained, apex predator behavior, marine wildlife truth revealed in this deep dive into one of the most feared sharks in the ocean....
+
+👉 Watch now: https://www.youtube.com/watch?v=tNPlztXlvP4
+
+**Hashtags:** #Wildlife #Nature #Conservation #YouTube
+
+**Thumbnail:** `https://i1.ytimg.com/vi/tNPlztXlvP4/hqdefault.jpg`
+
+---
+
+## 🎥 Old Killer? The Tiger Shark’s Deep Ocean Secret!
+
+**Caption:**
+🌿 New Discovery! Old Killer? The Tiger Shark’s Deep Ocean Secret!
+
+Scientist Revealed A Dangerous Ocean's Deadliest Predator | Tiger Shark. Dive into the terrifying depths of the ocean to uncover why the  tiger shark  is considered one of the  deadliest sharks on Ear...
+
+👉 Watch now: https://www.youtube.com/watch?v=EECOAr2urk8
+
+**Hashtags:** #Wildlife #Nature #Conservation #YouTube
+
+**Thumbnail:** `https://i2.ytimg.com/vi/EECOAr2urk8/hqdefault.jpg`
+
+---
+
+## 🎥 Not a Killer? The Ocean’s Deadliest Spot!
+
+**Caption:**
+🌿 New Discovery! Not a Killer? The Ocean’s Deadliest Spot!
+
+The deadliest place in the ocean is home to sharks, predators, and danger. From razor-toothed great whites to stealthy orcas, this zone challenges every creature that enters its waters. Nature scienti...
+
+👉 Watch now: https://www.youtube.com/watch?v=0Co6s7JVHBU
+
+**Hashtags:** #Wildlife #Nature #Conservation #YouTube
+
+**Thumbnail:** `https://i1.ytimg.com/vi/0Co6s7JVHBU/hqdefault.jpg`
+
+---
+
+## 🎥 Not an Alien? The Tardigrade Secret EXPOSED!
+
+**Caption:**
+🌿 New Discovery! Not an Alien? The Tardigrade Secret EXPOSED!
+
+Tardigrade | The IMMORTAL Deep Ocean Creature That Rewrites Survival. This video dives into the astonishing world of the tardigrade, also known as the "water bear," an animal that defies reality by su...
+
+👉 Watch now: https://www.youtube.com/watch?v=oya1vSllbsw
+
+**Hashtags:** #Wildlife #Nature #Conservation #YouTube
+
+**Thumbnail:** `https://i4.ytimg.com/vi/oya1vSllbsw/hqdefault.jpg`
+
+---
+
+## 🎥 Not a Fish? The Mudskipper Secret EXPOSED!
+
+**Caption:**
+🌿 New Discovery! Not a Fish? The Mudskipper Secret EXPOSED!
+
+Renowned Scientist Discovers Fish That Walks on Two Fins. The mudskipper is one of the strangest creatures on Earth — a fish that can breathe air, walk on land, and survive where no other fish can. Sc...
+
+👉 Watch now: https://www.youtube.com/watch?v=9u8BKiWmpzU
+
+**Hashtags:** #Wildlife #Nature #Conservation #YouTube
+
+**Thumbnail:** `https://i2.ytimg.com/vi/9u8BKiWmpzU/hqdefault.jpg`
+
+---
+
+## 🎥 Not a Paradise? The Palau Ocean Mystery!
+
+**Caption:**
+🌿 New Discovery! Not a Paradise? The Palau Ocean Mystery!
+
+Palau: Ocean Paradise (Full Episode) | The Living Edens | Nature Frontiers. Palau ocean paradise full episode explores one of the most biodiverse marine ecosystems on Earth in this cinematic documenta...
+
+👉 Watch now: https://www.youtube.com/watch?v=r-dv5LCjzh8
+
+**Hashtags:** #Wildlife #Nature #Conservation #YouTube
+
+**Thumbnail:** `https://i3.ytimg.com/vi/r-dv5LCjzh8/hqdefault.jpg`
+
+---
+
+## 🎥 Not a Whale? The Whale Shark Secret EXPOSED!
+
+**Caption:**
+🌿 New Discovery! Not a Whale? The Whale Shark Secret EXPOSED!
+
+Whale Shark Facts Ocean’s Gentle Giant Revealed. The Whale Shark is the largest fish in the world, a 40-foot gentle giant that glides through the ocean feeding on tiny plankton. Despite its enormous s...
+
+👉 Watch now: https://www.youtube.com/watch?v=iG9LDKXDMo4
+
+**Hashtags:** #Wildlife #Nature #Conservation #YouTube
+
+**Thumbnail:** `https://i2.ytimg.com/vi/iG9LDKXDMo4/hqdefault.jpg`
+
+---
+
+## 🎥 Not a Killer? The Great White's Secret!
+
+**Caption:**
+🌿 New Discovery! Not a Killer? The Great White's Secret!
+
+Journey into the mysterious deep ocean, exploring the incredible marine life and strange deep sea creatures that call these dark waters home. This wildlife documentary reveals the unique adaptations o...
+
+👉 Watch now: https://www.youtube.com/watch?v=H6VT48-jky8
+
+**Hashtags:** #Wildlife #Nature #Conservation #YouTube
+
+**Thumbnail:** `https://i1.ytimg.com/vi/H6VT48-jky8/hqdefault.jpg`
+
+---
+
+## 🎥 Fish Migration Routes Are Breaking Down
+
+**Caption:**
+🌿 New Discovery! Fish Migration Routes Are Breaking Down
+
+34,000 Fish Species EXPOSED: Why Our Oceans are Going Silent 2. Over 34,000 fish species inhabit our oceans — but the crisis is accelerating.
+
+In Part 2 of this Nature Frontiers investigative document...
+
+👉 Watch now: https://www.youtube.com/watch?v=jWeWQ0xyobo
+
+**Hashtags:** #Wildlife #Nature #Conservation #YouTube
+
+**Thumbnail:** `https://i3.ytimg.com/vi/jWeWQ0xyobo/hqdefault.jpg`
+
+---
+
+## 🎥 Not Silent? Why 34,000 Fish Species EXPOSED!
+
+**Caption:**
+🌿 New Discovery! Not Silent? Why 34,000 Fish Species EXPOSED!
+
+Why Our Oceans Are Going Silent (The Disappearance of 34,000 Fish Species). There are over 34,000 known fish species on Earth — from the prehistoric Coelacanth to apex predators like the Great White S...
+
+👉 Watch now: https://www.youtube.com/watch?v=YJm-Gzc81nk
+
+**Hashtags:** #Wildlife #Nature #Conservation #YouTube
+
+**Thumbnail:** `https://i2.ytimg.com/vi/YJm-Gzc81nk/hqdefault.jpg`
+
+---
+
+## 🎥 Not a Land Bird? The Common Swift EXPOSED!
+
+**Caption:**
+🌿 New Discovery! Not a Land Bird? The Common Swift EXPOSED!
+
+#naturefrontiers #naturedocumentary #birds
+Common Swift | The Science of Endless Flight & Aerial Survival. Some birds spend their entire lives in the sky, but this one takes it to an impossible extrem...
+
+👉 Watch now: https://www.youtube.com/watch?v=ztxAOx1eshg
+
+**Hashtags:** #Wildlife #Nature #Conservation #YouTube
+
+**Thumbnail:** `https://i3.ytimg.com/vi/ztxAOx1eshg/hqdefault.jpg`
 
 ---
 
