@@ -4,23 +4,11 @@
       "id": "yt_channel_main",
       "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UC41xXhw22o6Q2I2pTKB2kOg",
       "type": "youtube"
-    },
-    {
-      "id": "yt_playlist_wild",
-      "url": "https://www.youtube.com/feeds/videos.xml?playlist_id=PLhErNUuDxs_2F8ayJ_XDrgCbH-CiAqRcd",
-      "type": "youtube"
     }
   ],
   "article_sources": [
     { "id": "natgeo", "url": "https://www.nationalgeographic.com/animals/rss", "type": "article" },
     { "id": "bbcearth", "url": "https://www.bbcearth.com/feed/", "type": "article" },
-    { "id": "wwf", "url": "https://www.worldwildlife.org/feeds/news", "type": "article" },
-    { "id": "discovery", "url": "https://www.discovery.com/nature/rss", "type": "article" },
-    { "id": "sciencedaily", "url": "https://www.sciencedaily.com/rss/plants_animals.xml", "type": "article" },
-    { "id": "africageo", "url": "https://africageographic.com/feed/", "type": "article" },
-    { "id": "animalplanet", "url": "https://www.animalplanet.com/feed", "type": "article" },
-    { "id": "audubon", "url": "https://www.audubon.org/rss", "type": "article" },
-    { "id": "smithsonian", "url": "https://www.smithsonianmag.com/rss/animals/", "type": "article" },
-    { "id": "nps", "url": "https://www.nps.gov/feeds/news.rss", "type": "article" }
+    { "id": "sciencedaily", "url": "https://www.sciencedaily.com/rss/plants_animals.xml", "type": "article" }
   ]
 }
