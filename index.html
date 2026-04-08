@@ -1,101 +1,155 @@
-<script>
-    // Configuration
-    // Try to detect the base path dynamically
-    const pathParts = window.location.pathname.split('/').filter(p => p);
-    // If URL is naturefrontiers.github.io/nature-frontiers/, base is usually root or /nature-frontiers/
-    // We assume feed.xml is in the same directory as index.html
-    const FEED_URL = 'feed.xml'; 
-    const SOCIAL_URL = 'output/social_queue.md';
-    
-    const statusEl = document.getElementById('status');
-    const lastRunEl = document.getElementById('last-run');
-    const totalItemsEl = document.getElementById('total-items');
-    const youtubeCountEl = document.getElementById('youtube-count');
-    const articleCountEl = document.getElementById('article-count');
-    const contentListEl = document.getElementById('content-list');
-    const logListEl = document.getElementById('log-list');
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nature Frontiers Dashboard</title>
+    <style>
+        :root { --primary: #2c5f2d; --accent: #97bc62; --bg: #f4f9f4; --text: #333; }
+        body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; background: var(--bg); color: var(--text); margin: 0; padding: 20px; }
+        .container { max-width: 1000px; margin: 0 auto; }
+        header { text-align: center; margin-bottom: 30px; }
+        h1 { color: var(--primary); margin-bottom: 5px; }
+        .status-badge { display: inline-block; padding: 5px 15px; border-radius: 20px; font-weight: bold; color: white; }
+        .status-online { background-color: #28a745; }
+        .status-offline { background-color: #dc3545; }
+        .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 20px; margin-bottom: 30px; }
+        .card { background: white; padding: 20px; border-radius: 10px; box-shadow: 0 2px 5px rgba(0,0,0,0.05); text-align: center; }
+        .card h3 { margin: 0 0 10px 0; color: #666; font-size: 0.9em; text-transform: uppercase; }
+        .card .number { font-size: 2.5em; font-weight: bold; color: var(--primary); }
+        .section { background: white; padding: 25px; border-radius: 10px; box-shadow: 0 2px 5px rgba(0,0,0,0.05); margin-bottom: 20px; }
+        .btn { display: inline-block; padding: 10px 20px; background: var(--primary); color: white; text-decoration: none; border-radius: 5px; margin-right: 10px; margin-top: 10px; }
+        .btn:hover { background: #1e4220; }
+        table { width: 100%; border-collapse: collapse; margin-top: 15px; }
+        th, td { text-align: left; padding: 12px; border-bottom: 1px solid #eee; }
+        th { color: #666; font-weight: 600; }
+        .type-yt { color: #ff0000; font-weight: bold; }
+        .type-art { color: #007bff; }
+        #error-msg { color: red; display: none; margin-top: 20px; text-align: center; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>🌿 Nature Frontiers</h1>
+            <p>Live Automation Dashboard</p>
+            <span id="status" class="status-badge status-offline">Checking...</span>
+        </header>
 
-    async function updateDashboard() {
-        try {
-            // Add timestamp to bypass browser cache
-            const response = await fetch(FEED_URL + '?t=' + new Date().getTime());
-            
-            if (!response.ok) throw new Error('Feed not found');
-            
-            const text = await response.text();
-            const parser = new DOMParser();
-            const xmlDoc = parser.parseFromString(text, "text/xml");
-            
-            const items = xmlDoc.querySelectorAll('item');
-            const channelTitle = xmlDoc.querySelector('channel > title')?.textContent || 'Nature Frontiers';
-            
-            if (items.length === 0) {
-                statusEl.innerHTML = '⚠️ No Content Yet';
-                statusEl.className = 'status-badge warning';
-                totalItemsEl.textContent = '0';
-                return;
-            }
+        <div id="error-msg"></div>
 
-            // Success State
-            statusEl.innerHTML = '🟢 Live & Active';
-            statusEl.className = 'status-badge success';
-            lastRunEl.textContent = new Date().toLocaleString();
-            
-            let youtubeCount = 0;
-            let articleCount = 0;
-            let html = '';
+        <div class="grid">
+            <div class="card">
+                <h3>Total Items</h3>
+                <div class="number" id="total-count">-</div>
+            </div>
+            <div class="card">
+                <h3>YouTube Videos</h3>
+                <div class="number" id="yt-count">-</div>
+            </div>
+            <div class="card">
+                <h3>Articles</h3>
+                <div class="number" id="art-count">-</div>
+            </div>
+            <div class="card">
+                <h3>Last Updated</h3>
+                <div class="number" style="font-size: 1.2em;" id="last-updated">-</div>
+            </div>
+        </div>
 
-            items.forEach((item, index) => {
-                const title = item.querySelector('title')?.textContent || 'Untitled';
-                const link = item.querySelector('link')?.textContent || '#';
-                const desc = item.querySelector('description')?.textContent || '';
-                const isYoutube = desc.toLowerCase().includes('youtube') || link.includes('youtube');
+        <div class="section">
+            <h2>🚀 Quick Actions</h2>
+            <a href="feed.xml" target="_blank" class="btn">View Raw RSS Feed</a>
+            <a href="output/social_queue.md" target="_blank" class="btn">Open Social Queue</a>
+            <a href="https://github.com/naturefrontiers/nature-frontiers/actions" target="_blank" class="btn">Workflow Logs</a>
+        </div>
+
+        <div class="section">
+            <h2>📰 Latest Content</h2>
+            <table id="content-table">
+                <thead>
+                    <tr>
+                        <th>Type</th>
+                        <th>Title</th>
+                        <th>Source</th>
+                        <th>Link</th>
+                    </tr>
+                </thead>
+                <tbody><!-- Items loaded here --></tbody>
+            </table>
+        </div>
+    </div>
+
+    <script>
+        const FEED_URL = 'feed.xml?t=' + new Date().getTime(); // Cache buster
+        
+        async function loadDashboard() {
+            try {
+                const response = await fetch(FEED_URL);
+                if (!response.ok) throw new Error("Feed not found (404)");
                 
-                if (isYoutube) youtubeCount++;
-                else articleCount++;
+                const text = await response.text();
+                const parser = new DOMParser();
+                const xml = parser.parseFromString(text, "text/xml");
+                
+                // Check for parsing errors
+                if (xml.querySelector("parsererror")) throw new Error("Invalid XML");
 
-                if (index < 10) { // Show top 10
-                    const badgeClass = isYoutube ? 'badge-youtube' : 'badge-article';
-                    const badgeText = isYoutube ? '📺 Video' : '📄 Article';
-                    html += `
-                        <div class="content-item">
-                            <div class="content-header">
-                                <span class="badge ${badgeClass}">${badgeText}</span>
-                                <span class="content-date">${new Date(item.querySelector('pubDate')?.textContent).toLocaleDateString()}</span>
-                            </div>
-                            <h4>${title}</h4>
-                            <a href="${link}" target="_blank" class="view-link">View Source →</a>
-                        </div>
+                const items = xml.querySelectorAll("item");
+                const total = items.length;
+                let ytCount = 0;
+                let artCount = 0;
+
+                const tbody = document.querySelector("#content-table tbody");
+                tbody.innerHTML = "";
+
+                items.forEach((item, index) => {
+                    if (index >= 10) return; // Show only top 10
+                    
+                    const title = item.querySelector("title")?.textContent || "No Title";
+                    const link = item.querySelector("link")?.textContent || "#";
+                    const source = item.querySelector("category")?.textContent || "Unknown";
+                    const isYt = link.includes("youtube.com");
+                    
+                    if (isYt) ytCount++; else artCount++;
+
+                    const row = `
+                        <tr>
+                            <td><span class="${isYt ? 'type-yt' : 'type-art'}">${isYt ? '▶️ YouTube' : '📄 Article'}</span></td>
+                            <td>${title}</td>
+                            <td>${source}</td>
+                            <td><a href="${link}" target="_blank" style="color:var(--primary)">Watch/Read</a></td>
+                        </tr>
                     `;
-                }
-            });
+                    tbody.innerHTML += row;
+                });
 
-            totalItemsEl.textContent = items.length;
-            youtubeCountEl.textContent = youtubeCount;
-            articleCountEl.textContent = articleCount;
-            contentListEl.innerHTML = html;
+                // Update Stats
+                document.getElementById("total-count").textContent = total;
+                document.getElementById("yt-count").textContent = ytCount;
+                document.getElementById("art-count").textContent = artCount;
+                
+                const lastBuild = xml.querySelector("lastBuildDate")?.textContent || new Date().toDateString();
+                document.getElementById("last-updated").textContent = new Date(lastBuild).toLocaleDateString();
 
-            // Add to logs
-            const logItem = document.createElement('div');
-            logItem.className = 'log-item success';
-            logItem.textContent = `${new Date().toLocaleTimeString()} - Synced ${items.length} items`;
-            logListEl.prepend(logItem);
+                document.getElementById("status").textContent = "● Online";
+                document.getElementById("status").className = "status-badge status-online";
 
-        } catch (error) {
-            console.error(error);
-            statusEl.innerHTML = '🔴 Offline / No Data';
-            statusEl.className = 'status-badge error';
-            lastRunEl.textContent = 'Check Actions tab';
-            
-            const logItem = document.createElement('div');
-            logItem.className = 'log-item error';
-            logItem.textContent = `${new Date().toLocaleTimeString()} - Failed to load feed.xml`;
-            logListEl.prepend(logItem);
+            } catch (err) {
+                console.error(err);
+                document.getElementById("status").textContent = "● Offline";
+                document.getElementById("status").className = "status-badge status-offline";
+                document.getElementById("error-msg").style.display = "block";
+                document.getElementById("error-msg").innerHTML = `
+                    <strong>Cannot load feed.</strong><br>
+                    1. Ensure <code>feed.xml</code> exists in the repo root.<br>
+                    2. Go to <a href="https://github.com/naturefrontiers/nature-frontiers/actions">Actions</a> and run the workflow manually.<br>
+                    3. Wait for a green checkmark, then refresh this page.
+                `;
+            }
         }
-    }
 
-    // Initial load
-    updateDashboard();
-    // Refresh every 5 minutes
-    setInterval(updateDashboard, 300000);
-</script>
+        loadDashboard();
+    </script>
+</body>
+</html>
