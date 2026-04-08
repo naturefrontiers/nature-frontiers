@@ -1,7 +1,10 @@
-"youtube_sources": [
-  {
-    "id": "yt_channel_main",
-    "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UC41xXhw22o6Q2I2pTKB2kOg",
-    "type": "youtube"
-  }
-],
+{
+  "youtube_sources": [
+    {
+      "id": "yt_channel_main",
+      "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UC41xXhw22o6Q2I2pTKB2kOg",
+      "type": "youtube"
+    }
+  ],
+  "article_sources": []
+}
