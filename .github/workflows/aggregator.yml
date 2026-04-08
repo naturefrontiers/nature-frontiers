@@ -2,7 +2,7 @@ name: Nature Frontiers RSS Aggregator
 
 on:
   schedule:
-    - cron: '0 * * * *'
+    - cron: '0 * * * *' # Every hour
   workflow_dispatch:
 
 permissions:
@@ -15,6 +15,8 @@ jobs:
     steps:
       - name: Checkout Repository
         uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
 
       - name: Set up Python
         uses: actions/setup-python@v5
@@ -30,17 +32,42 @@ jobs:
         id: run_script
         run: |
           python scripts/aggregator.py
-          echo "changes_detected=true" >> $GITHUB_OUTPUT
+          echo "Script finished."
+
+      - name: Check for Changes
+        id: check_changes
+        run: |
+          if git diff --quiet; then
+            echo "has_changes=false" >> $GITHUB_OUTPUT
+            echo "No new content found."
+          else
+            echo "has_changes=true" >> $GITHUB_OUTPUT
+            echo "New content found!"
+          fi
 
       - name: Commit and Push Changes
-        if: always()
+        if: steps.check_changes.outputs.has_changes == 'true'
         run: |
           git config --local user.email "github-actions[bot]@users.noreply.github.com"
           git config --local user.name "github-actions[bot]"
-          git add -A
-          if ! git diff --staged --quiet; then
-            git commit -m "chore: Update feed and state [skip ci]"
+          git add data/state.json feed.xml output/social_queue.md
+          # Force add even if files are large or weird
+          git commit -m "chore: Update feed and stats [skip ci]" || echo "Nothing to commit"
+          git push
+          echo "Changes pushed successfully."
+      
+      - name: Force Commit if Feed Missing
+        # This ensures feed.xml ALWAYS exists in the repo, even if script fails to update it
+        run: |
+          if [ ! -f feed.xml ]; then
+            echo "feed.xml missing! Creating fallback..."
+            cat > feed.xml << 'EOF'
+            <?xml version="1.0" encoding="UTF-8"?>
+            <rss version="2.0"><channel><title>Nature Frontiers</title><link>https://naturefrontiers.github.io/nature-frontiers/</link><description>Feed initialized</description></channel></rss>
+            EOF
+            git config --local user.email "github-actions[bot]@users.noreply.github.com"
+            git config --local user.name "github-actions[bot]"
+            git add feed.xml
+            git commit -m "fix: Restore missing feed.xml"
             git push
-          else
-            echo "No changes to commit."
           fi
