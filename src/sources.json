@@ -1,6 +1,21 @@
 {
   "youtube_sources": [
-    { "id": "yt_channel", "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UC41xXhw22o6Q2I2pTKB2kOg", "type": "youtube" }
+    {
+      "id": "yt_channel_main",
+      "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UC41xXhw22o6Q2I2pTKB2kOg",
+      "type": "youtube"
+    },
+    {
+      "id": "yt_playlist_wild",
+      "url": "https://www.youtube.com/feeds/videos.xml?playlist_id=PLhErNUuDxs_2F8ayJ_XDrgCbH-CiAqRcd",
+      "type": "youtube"
+    }
   ],
-  "article_sources": []
+  "article_sources": [
+    { "id": "natgeo", "url": "https://www.nationalgeographic.com/animals/rss", "type": "article" },
+    { "id": "bbcearth", "url": "https://www.bbcearth.com/feed/", "type": "article" },
+    { "id": "wwf", "url": "https://www.worldwildlife.org/feeds/news", "type": "article" },
+    { "id": "discovery", "url": "https://www.discovery.com/nature/rss", "type": "article" },
+    { "id": "sciencedaily", "url": "https://www.sciencedaily.com/rss/plants_animals.xml", "type": "article" }
+  ]
 }
