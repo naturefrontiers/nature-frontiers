@@ -1,10 +1,6 @@
 {
   "youtube_sources": [
-    {
-      "id": "yt_channel_main",
-      "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UC41xXhw22o6Q2I2pTKB2kOg",
-      "type": "youtube"
-    }
+    { "id": "yt_channel", "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UC41xXhw22o6Q2I2pTKB2kOg", "type": "youtube" }
   ],
   "article_sources": [
     { "id": "natgeo", "url": "https://www.nationalgeographic.com/animals/rss", "type": "article" },
