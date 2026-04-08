@@ -1,11 +1,11 @@
-# Social Media Queue - Generated 2026-04-08 17:50
+# Social Media Queue - Generated 2026-04-08 18:14
 
 > **Instructions:** Copy the content below for each video and post manually to LinkedIn, X, Instagram, and TikTok.
 
-## 🎥 How Grey Reef Sharks Coordinate Their Hunts #predator #ocean #shorts
+## 🎥 Grey Reef Sharks Show Incredible Teamwork #hunting #wildlife #shorts
 
 **Caption:**
-🌿 New Discovery! How Grey Reef Sharks Coordinate Their Hunts #predator #ocean #shorts
+🌿 New Discovery! Grey Reef Sharks Show Incredible Teamwork #hunting #wildlife #shorts
 
 Journey into the vibrant coral reef to meet the gray shark, a true apex predator of the deep. This wildlife documentary captures its swift movements and calculated hunting strategies. Discover the inc...
 
