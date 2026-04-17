@@ -1,19 +1,19 @@
-# Social Media Queue - Generated 2026-04-16 07:10
+# Social Media Queue - Generated 2026-04-17 10:40
 
 > **Instructions:** Copy the content below for each video and post manually.
 
-## 🎥 The Deadly Truth About Moose America’s Most Aggressive Giant
+## 🎥 The American Moose Is Absolutely MASSIVE #wildlife #alaska #moose
 
 **Caption:**
-🌿 New Discovery! The Deadly Truth About Moose America’s Most Aggressive Giant
+🌿 New Discovery! The American Moose Is Absolutely MASSIVE #wildlife #alaska #moose
 
-This video explores the coexistence of wildlife and human infrastructure, showcasing moose in their natural habitat and their encounters with roads and vehicles. It highlights the potential dangers an...
+Join us on a journey into the "animal world" as we introduce the majestic American moose, a true marvel among "wild animals". This video showcases the impressive size and unique survival adaptations o...
 
-👉 Watch now: https://www.youtube.com/watch?v=mml0EQRwo0Y
+👉 Watch now: https://www.youtube.com/shorts/Wmya-wUw8tU
 
 **Hashtags:** #Wildlife #Nature #Conservation #YouTube
 
-**Thumbnail:** `https://i2.ytimg.com/vi/mml0EQRwo0Y/hqdefault.jpg`
+**Thumbnail:** `https://i4.ytimg.com/vi/Wmya-wUw8tU/hqdefault.jpg`
 
 ---
 
