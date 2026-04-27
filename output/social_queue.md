@@ -1,19 +1,21 @@
-# Social Media Queue - Generated 2026-04-26 20:00
+# Social Media Queue - Generated 2026-04-27 09:31
 
 > **Instructions:** Copy the content below for each video and post manually.
 
-## 🎥 Deep Ocean Giants Exposed: Live Exploration of Nature's Most Mysterious Sea Predators
+## 🎥 The Grizzly Bear: Survival Secrets of the Forest’s Most Powerful Predator
 
 **Caption:**
-🌿 New Discovery! Deep Ocean Giants Exposed: Live Exploration of Nature's Most Mysterious Sea Predators
+🌿 New Discovery! The Grizzly Bear: Survival Secrets of the Forest’s Most Powerful Predator
 
-Join us LIVE on Nature Frontiers as we plunge into the midnight zone to uncover the secrets of the ocean's most formidable giants. From the tactical brilliance of Great White Sharks to the alien-like ...
+The Forest TANK That Even Wolves FEAR. A silent shape moves through the pines… then suddenly the forest explodes into power.
 
-👉 Watch now: https://www.youtube.com/watch?v=CZ_7C3DaRNw
+Meet the grizzly bear – North America’s forest tank, an apex predator so s...
+
+👉 Watch now: https://www.youtube.com/watch?v=v8s7nh2MYls
 
 **Hashtags:** #Wildlife #Nature #Conservation #YouTube
 
-**Thumbnail:** `https://i4.ytimg.com/vi/CZ_7C3DaRNw/hqdefault.jpg`
+**Thumbnail:** `https://i3.ytimg.com/vi/v8s7nh2MYls/hqdefault.jpg`
 
 ---
 
