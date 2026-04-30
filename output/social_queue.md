@@ -1,21 +1,19 @@
-# Social Media Queue - Generated 2026-04-27 09:31
+# Social Media Queue - Generated 2026-04-30 09:24
 
 > **Instructions:** Copy the content below for each video and post manually.
 
-## 🎥 The Grizzly Bear: Survival Secrets of the Forest’s Most Powerful Predator
+## 🎥 This Domino Effect Proves Sharks Run Everything #OceanTruth #Marine
 
 **Caption:**
-🌿 New Discovery! The Grizzly Bear: Survival Secrets of the Forest’s Most Powerful Predator
+🌿 New Discovery! This Domino Effect Proves Sharks Run Everything #OceanTruth #Marine
 
-The Forest TANK That Even Wolves FEAR. A silent shape moves through the pines… then suddenly the forest explodes into power.
+The disappearance of sharks, vital apex predators, would shatter the delicate marine ecosystem of the coral reef. This initiates a domino effect within the food chain, leading to a potential mass exti...
 
-Meet the grizzly bear – North America’s forest tank, an apex predator so s...
-
-👉 Watch now: https://www.youtube.com/watch?v=v8s7nh2MYls
+👉 Watch now: https://www.youtube.com/shorts/OpLVAe1YmME
 
 **Hashtags:** #Wildlife #Nature #Conservation #YouTube
 
-**Thumbnail:** `https://i3.ytimg.com/vi/v8s7nh2MYls/hqdefault.jpg`
+**Thumbnail:** `https://i4.ytimg.com/vi/OpLVAe1YmME/hqdefault.jpg`
 
 ---
 
