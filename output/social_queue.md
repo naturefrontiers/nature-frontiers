@@ -1,19 +1,36 @@
-# Social Media Queue - Generated 2026-05-03 23:29
+# Social Media Queue - Generated 2026-05-04 09:06
 
 > **Instructions:** Copy the content below for each video and post manually.
 
-## 🎥 The World’s Most Extreme Birds From Sun Chasers to Human Killers!
+## 🎥 Scientists Finally Captured the Nile Crocodile’s Most Terrifying Secret
 
 **Caption:**
-🌿 New Discovery! The World’s Most Extreme Birds From Sun Chasers to Human Killers!
+🌿 New Discovery! Scientists Finally Captured the Nile Crocodile’s Most Terrifying Secret
 
-Set your reminders for 5 PM! Join Nature Frontiers for a deep dive into the world’s most fascinating avian species. From birds that fly for years without landing to those capable of taking down a huma...
+This video showcases various crocodiles and alligators in their natural habitats. See close-ups of their teeth and snouts, with alligators basking on grassy banks and crocodiles partially submerged in...
 
-👉 Watch now: https://www.youtube.com/watch?v=gFasDC_b6sU
+👉 Watch now: https://www.youtube.com/watch?v=diGlXRubD0g
 
 **Hashtags:** #Wildlife #Nature #Conservation #YouTube
 
-**Thumbnail:** `https://i4.ytimg.com/vi/gFasDC_b6sU/hqdefault.jpg`
+**Thumbnail:** `https://i1.ytimg.com/vi/diGlXRubD0g/hqdefault.jpg`
+
+---
+
+## 🎥 This Prehistoric Bite is Stronger Than a T-Rex! 🐊💥 #nature #crocodile #shorts
+
+**Caption:**
+🌿 New Discovery! This Prehistoric Bite is Stronger Than a T-Rex! 🐊💥 #nature #crocodile #shorts
+
+With over 3,700 PSI of raw power, the Saltwater Crocodile has the strongest bite force ever recorded in the animal kingdom. They’ve outlived the dinosaurs—and it’s easy to see why. 🦖🌊
+
+Is anything saf...
+
+👉 Watch now: https://www.youtube.com/shorts/Cn9XCUAfQBw
+
+**Hashtags:** #Wildlife #Nature #Conservation #YouTube
+
+**Thumbnail:** `https://i4.ytimg.com/vi/Cn9XCUAfQBw/hqdefault.jpg`
 
 ---
 
