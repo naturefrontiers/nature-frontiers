@@ -1,36 +1,19 @@
-# Social Media Queue - Generated 2026-05-04 09:06
+# Social Media Queue - Generated 2026-05-07 20:51
 
 > **Instructions:** Copy the content below for each video and post manually.
 
-## 🎥 Scientists Finally Captured the Nile Crocodile’s Most Terrifying Secret
+## 🎥 24/7 Deep Sea Discovery: From Immortal Jellyfish to the Ocean's Deadliest Apex Predators
 
 **Caption:**
-🌿 New Discovery! Scientists Finally Captured the Nile Crocodile’s Most Terrifying Secret
+🌿 New Discovery! 24/7 Deep Sea Discovery: From Immortal Jellyfish to the Ocean's Deadliest Apex Predators
 
-This video showcases various crocodiles and alligators in their natural habitats. See close-ups of their teeth and snouts, with alligators basking on grassy banks and crocodiles partially submerged in...
+Dive into the deepest mysteries of the ocean in this Nature Frontiers marathon. We’ve compiled all our most fascinating underwater discoveries—from creatures that literally live forever to the silent ...
 
-👉 Watch now: https://www.youtube.com/watch?v=diGlXRubD0g
+👉 Watch now: https://www.youtube.com/watch?v=OH3qo6_Mdzs
 
 **Hashtags:** #Wildlife #Nature #Conservation #YouTube
 
-**Thumbnail:** `https://i1.ytimg.com/vi/diGlXRubD0g/hqdefault.jpg`
-
----
-
-## 🎥 This Prehistoric Bite is Stronger Than a T-Rex! 🐊💥 #nature #crocodile #shorts
-
-**Caption:**
-🌿 New Discovery! This Prehistoric Bite is Stronger Than a T-Rex! 🐊💥 #nature #crocodile #shorts
-
-With over 3,700 PSI of raw power, the Saltwater Crocodile has the strongest bite force ever recorded in the animal kingdom. They’ve outlived the dinosaurs—and it’s easy to see why. 🦖🌊
-
-Is anything saf...
-
-👉 Watch now: https://www.youtube.com/shorts/Cn9XCUAfQBw
-
-**Hashtags:** #Wildlife #Nature #Conservation #YouTube
-
-**Thumbnail:** `https://i4.ytimg.com/vi/Cn9XCUAfQBw/hqdefault.jpg`
+**Thumbnail:** `https://i4.ytimg.com/vi/OH3qo6_Mdzs/hqdefault.jpg`
 
 ---
 
