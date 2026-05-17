@@ -1,21 +1,19 @@
-# Social Media Queue - Generated 2026-05-13 09:45
+# Social Media Queue - Generated 2026-05-17 22:55
 
 > **Instructions:** Copy the content below for each video and post manually.
 
-## 🎥 Lions vs Hyenas: Africa's Most Brutal Battle | Scientists Explains Why
+## 🎥 Crocodile Vs Bull Shark One River Survivor
 
 **Caption:**
-🌿 New Discovery! Lions vs Hyenas: Africa's Most Brutal Battle | Scientists Explains Why
+🌿 New Discovery! Crocodile Vs Bull Shark One River Survivor
 
-A lone hyena challenges Africa’s most feared predator… and the savanna explodes into chaos. 🦁🔥
+The Nile crocodile and the bull shark share the same rivers — and only one controls them. Scientists tracking bull sharks in South African river systems discovered something that overturned 30 years o...
 
-This brutal lion vs hyena encounter shows what really happens when two apex hunters fight for dominance ...
-
-👉 Watch now: https://www.youtube.com/shorts/OSlVurq4uMk
+👉 Watch now: https://www.youtube.com/watch?v=jd9RIFpdzY0
 
 **Hashtags:** #Wildlife #Nature #Conservation #YouTube
 
-**Thumbnail:** `https://i4.ytimg.com/vi/OSlVurq4uMk/hqdefault.jpg`
+**Thumbnail:** `https://i3.ytimg.com/vi/jd9RIFpdzY0/hqdefault.jpg`
 
 ---
 
