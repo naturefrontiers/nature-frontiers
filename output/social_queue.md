@@ -1,23 +1,21 @@
-# Social Media Queue - Generated 2026-05-19 16:20
+# Social Media Queue - Generated 2026-05-19 19:01
 
 > **Instructions:** Copy the content below for each video and post manually.
 
-## 🎥 Shark vs Orca vs Crocodile LIVE 🦈🐋🐊 | Ocean’s Deadliest Predators Explained
+## 🎥 White Sharks Vanish When The Orcas Shows Up #wildlife #shorts
 
 **Caption:**
-🌿 New Discovery! Shark vs Orca vs Crocodile LIVE 🦈🐋🐊 | Ocean’s Deadliest Predators Explained
+🌿 New Discovery! White Sharks Vanish When The Orcas Shows Up #wildlife #shorts
 
-DESCRIPTION:
+The ocean’s deadliest shark suddenly disappeared after a terrifying orca attack… and scientists still can’t believe what happened. 🦈🔥
 
-Three apex predators. Three different killing strategies. One livestream.
+When killer whales begin hunting great white sharks, entire coast...
 
-Welcome to Nature Frontiers LIVE — where we break down the world’s deadliest hunters using real science, docume...
-
-👉 Watch now: https://www.youtube.com/watch?v=DphUZ2jn7sc
+👉 Watch now: https://www.youtube.com/shorts/H45r12Y19wU
 
 **Hashtags:** #Wildlife #Nature #Conservation #YouTube
 
-**Thumbnail:** `https://i1.ytimg.com/vi/DphUZ2jn7sc/hqdefault.jpg`
+**Thumbnail:** `https://i1.ytimg.com/vi/H45r12Y19wU/hqdefault.jpg`
 
 ---
 
