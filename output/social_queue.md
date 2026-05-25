@@ -1,24 +1,19 @@
-# Social Media Queue - Generated 2026-05-24 15:04
+# Social Media Queue - Generated 2026-05-25 15:51
 
 > **Instructions:** Copy the content below for each video and post manually.
 
-## 🎥 LIVE: Sharks and Deep Ocean Creatures — Scientists React
+## 🎥 CROCODILE VS HIPPO | Scientists Proved the Apex Ruler
 
 **Caption:**
-🌿 New Discovery! LIVE: Sharks and Deep Ocean Creatures — Scientists React
+🌿 New Discovery! CROCODILE VS HIPPO | Scientists Proved the Apex Ruler
 
-🔴 LIVE NOW — We are watching, discussing and breaking 
-down the most shocking shark and deep ocean footage 
-ever recorded — and revealing what scientists actually 
-found when they studied it.
+Every nature documentary calls the Nile crocodile Africa's most dangerous river predator. Researchers who spent decades tracking both species along the Mara River found something different — hippos in...
 
-Tonight...
-
-👉 Watch now: https://www.youtube.com/watch?v=gld2adoQeHQ
+👉 Watch now: https://www.youtube.com/watch?v=GILH8TlJMkM
 
 **Hashtags:** #Wildlife #Nature #Conservation #YouTube
 
-**Thumbnail:** `https://i4.ytimg.com/vi/gld2adoQeHQ/hqdefault.jpg`
+**Thumbnail:** `https://i4.ytimg.com/vi/GILH8TlJMkM/hqdefault.jpg`
 
 ---
 
