@@ -1,19 +1,21 @@
-# Social Media Queue - Generated 2026-05-31 18:02
+# Social Media Queue - Generated 2026-06-01 16:38
 
 > **Instructions:** Copy the content below for each video and post manually.
 
-## 🎥 Hippo's Brutal Revenge After Crocodile's Fatal Error
+## 🎥 White Shark Fled Orca — Now It's Back | Shark Science
 
 **Caption:**
-🌿 New Discovery! Hippo's Brutal Revenge After Crocodile's Fatal Error
+🌿 New Discovery! White Shark Fled Orca — Now It's Back | Shark Science
 
-Every crocodile that enters hippo territory is making a calculated risk — and the science says they almost always lose. The hippo is not the docile giant the internet tells you it is. It is the most l...
+Great white sharks vanished from South Africa's most famous waters — 
+driven out by two orcas named Port and Starboard. Scientists watched 
+in disbelief as the ocean's most feared predator fled. Now.....
 
-👉 Watch now: https://www.youtube.com/shorts/AY8YeMpe5p0
+👉 Watch now: https://www.youtube.com/watch?v=6LJsSRuYf2g
 
 **Hashtags:** #Wildlife #Nature #Conservation #YouTube
 
-**Thumbnail:** `https://i2.ytimg.com/vi/AY8YeMpe5p0/hqdefault.jpg`
+**Thumbnail:** `https://i3.ytimg.com/vi/6LJsSRuYf2g/hqdefault.jpg`
 
 ---
 
