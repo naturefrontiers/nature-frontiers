@@ -1,21 +1,21 @@
-# Social Media Queue - Generated 2026-06-01 16:38
+# Social Media Queue - Generated 2026-06-03 18:44
 
 > **Instructions:** Copy the content below for each video and post manually.
 
-## 🎥 White Shark Fled Orca — Now It's Back | Shark Science
+## 🎥 Scientists Wants Them Back — But The White Sharks Are Gone
 
 **Caption:**
-🌿 New Discovery! White Shark Fled Orca — Now It's Back | Shark Science
+🌿 New Discovery! Scientists Wants Them Back — But The White Sharks Are Gone
 
-Great white sharks vanished from South Africa's most famous waters — 
-driven out by two orcas named Port and Starboard. Scientists watched 
-in disbelief as the ocean's most feared predator fled. Now.....
+Something is very wrong in the ocean.
 
-👉 Watch now: https://www.youtube.com/watch?v=6LJsSRuYf2g
+Great white sharks — the most feared predator in the sea — have completely disappeared from waters they once dominated. And marine ecologists aren't relieved. Th...
+
+👉 Watch now: https://www.youtube.com/shorts/u_3b5Ob0JBI
 
 **Hashtags:** #Wildlife #Nature #Conservation #YouTube
 
-**Thumbnail:** `https://i3.ytimg.com/vi/6LJsSRuYf2g/hqdefault.jpg`
+**Thumbnail:** `https://i2.ytimg.com/vi/u_3b5Ob0JBI/hqdefault.jpg`
 
 ---
 
