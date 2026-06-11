@@ -1,21 +1,23 @@
-# Social Media Queue - Generated 2026-06-11 18:14
+# Social Media Queue - Generated 2026-06-11 21:21
 
 > **Instructions:** Copy the content below for each video and post manually.
 
-## 🎥 Nile Crocodile: The Perfect Killer Got Much Scarier | Africa Wild
+## 🎥 Scientists Watch Shark Footage They Never Expected
 
 **Caption:**
-🌿 New Discovery! Nile Crocodile: The Perfect Killer Got Much Scarier | Africa Wild
+🌿 New Discovery! Scientists Watch Shark Footage They Never Expected
 
 Made with Restream Studio. Livestream on 30+ platforms at once via https://restream.io
 
-This video showcases various crocodiles and alligators in their natural habitats. See close-ups of their teeth a...
+🔴 LIVE NOW — We are watching, discussing and breaking 
+down the most shocking shark and deep ocean footage 
+ever...
 
-👉 Watch now: https://www.youtube.com/watch?v=_nVp2mRg_rk
+👉 Watch now: https://www.youtube.com/watch?v=rk4k3Gaya0A
 
 **Hashtags:** #Wildlife #Nature #Conservation #YouTube
 
-**Thumbnail:** `https://i4.ytimg.com/vi/_nVp2mRg_rk/hqdefault.jpg`
+**Thumbnail:** `https://i3.ytimg.com/vi/rk4k3Gaya0A/hqdefault.jpg`
 
 ---
 
