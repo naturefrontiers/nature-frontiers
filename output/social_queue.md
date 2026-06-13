@@ -1,34 +1,19 @@
-# Social Media Queue - Generated 2026-06-13 03:49
+# Social Media Queue - Generated 2026-06-13 17:22
 
 > **Instructions:** Copy the content below for each video and post manually.
 
-## 🎥 Nile Crocodile: The Perfect Killer Got Much Scarier | Africa Wild
+## 🎥 Predator Fear Shapes Ecosystems. The Power of Prey Behavior
 
 **Caption:**
-🌿 New Discovery! Nile Crocodile: The Perfect Killer Got Much Scarier | Africa Wild
+🌿 New Discovery! Predator Fear Shapes Ecosystems. The Power of Prey Behavior
 
-This video showcases various crocodiles and alligators in their natural habitats. See close-ups of their teeth and snouts, with alligators basking on grassy banks and crocodiles partially submerged in...
+The 'Landscape of Fear' isn't just a theory—it’s the silent, invisible force physically rewriting the rules of our planet. It’s not just about who kills who; it’s about the psychological terror that f...
 
-👉 Watch now: https://www.youtube.com/watch?v=iLae7AV0pbE
+👉 Watch now: https://www.youtube.com/shorts/q7S6omBZguQ
 
 **Hashtags:** #Wildlife #Nature #Conservation #YouTube
 
-**Thumbnail:** `https://i2.ytimg.com/vi/iLae7AV0pbE/hqdefault.jpg`
-
----
-
-## 🎥 Nile Crocodile: The Perfect Killer Got Much Scarier | Africa Wild
-
-**Caption:**
-🌿 New Discovery! Nile Crocodile: The Perfect Killer Got Much Scarier | Africa Wild
-
-This video showcases various crocodiles and alligators in their natural habitats. See close-ups of their teeth and snouts, with alligators basking on grassy banks and crocodiles partially submerged in...
-
-👉 Watch now: https://www.youtube.com/watch?v=fD4HqrST2es
-
-**Hashtags:** #Wildlife #Nature #Conservation #YouTube
-
-**Thumbnail:** `https://i3.ytimg.com/vi/fD4HqrST2es/hqdefault.jpg`
+**Thumbnail:** `https://i2.ytimg.com/vi/q7S6omBZguQ/hqdefault.jpg`
 
 ---
 
