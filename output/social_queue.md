@@ -1,19 +1,23 @@
-# Social Media Queue - Generated 2026-06-20 08:57
+# Social Media Queue - Generated 2026-06-21 13:06
 
 > **Instructions:** Copy the content below for each video and post manually.
 
-## 🎥 The Lion vs Hyenas. Crocodile vs Hippo. The Nile Crocodile Live | Nature Frontiers
+## 🎥 You Won't Believe What The Lion Did Next #wildlife #shorts
 
 **Caption:**
-🌿 New Discovery! The Lion vs Hyenas. Crocodile vs Hippo. The Nile Crocodile Live | Nature Frontiers
+🌿 New Discovery! You Won't Believe What The Lion Did Next #wildlife #shorts
 
-This video showcases various crocodiles and alligators in their natural habitats. See close-ups of their teeth and snouts, with alligators basking on grassy banks and crocodiles partially submerged in...
+He made his move... but did he make it too soon? 👀🦁
 
-👉 Watch now: https://www.youtube.com/watch?v=LILchVMDxi0
+Watch till the end — this lion encounter takes a turn nobody expected.
+
+🔔 Subscribe to Nature Frontiers for more wild, unscripted animal encounters...
+
+👉 Watch now: https://www.youtube.com/shorts/fUISF-BdgB0
 
 **Hashtags:** #Wildlife #Nature #Conservation #YouTube
 
-**Thumbnail:** `https://i1.ytimg.com/vi/LILchVMDxi0/hqdefault.jpg`
+**Thumbnail:** `https://i3.ytimg.com/vi/fUISF-BdgB0/hqdefault.jpg`
 
 ---
 
