@@ -1,23 +1,23 @@
-# Social Media Queue - Generated 2026-06-21 13:06
+# Social Media Queue - Generated 2026-06-22 15:51
 
 > **Instructions:** Copy the content below for each video and post manually.
 
-## 🎥 You Won't Believe What The Lion Did Next #wildlife #shorts
+## 🎥 Lion Challenged A Crocodile… Then THIS Happened! | Wildlife
 
 **Caption:**
-🌿 New Discovery! You Won't Believe What The Lion Did Next #wildlife #shorts
+🌿 New Discovery! Lion Challenged A Crocodile… Then THIS Happened! | Wildlife
 
-He made his move... but did he make it too soon? 👀🦁
+A lion walked to the edge of the Mara River — and made a decision 
+that changed everything. What happened next has been captured on 
+camera only a handful of times in recorded wildlife history.
 
-Watch till the end — this lion encounter takes a turn nobody expected.
+In th...
 
-🔔 Subscribe to Nature Frontiers for more wild, unscripted animal encounters...
-
-👉 Watch now: https://www.youtube.com/shorts/fUISF-BdgB0
+👉 Watch now: https://www.youtube.com/watch?v=FOS23LnB8Us
 
 **Hashtags:** #Wildlife #Nature #Conservation #YouTube
 
-**Thumbnail:** `https://i3.ytimg.com/vi/fUISF-BdgB0/hqdefault.jpg`
+**Thumbnail:** `https://i3.ytimg.com/vi/FOS23LnB8Us/hqdefault.jpg`
 
 ---
 
