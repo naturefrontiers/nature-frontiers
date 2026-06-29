@@ -1,23 +1,20 @@
-# Social Media Queue - Generated 2026-06-22 15:51
+# Social Media Queue - Generated 2026-06-29 22:58
 
 > **Instructions:** Copy the content below for each video and post manually.
 
-## 🎥 Lion Challenged A Crocodile… Then THIS Happened! | Wildlife
+## 🎥 Leopard's Secret Hunting Trick Lions Never Figured Out | African Wildlife
 
 **Caption:**
-🌿 New Discovery! Lion Challenged A Crocodile… Then THIS Happened! | Wildlife
+🌿 New Discovery! Leopard's Secret Hunting Trick Lions Never Figured Out | African Wildlife
 
-A lion walked to the edge of the Mara River — and made a decision 
-that changed everything. What happened next has been captured on 
-camera only a handful of times in recorded wildlife history.
+The lion rules Africa — but the leopard just outsmarted every big cat in the wild.
+Millions miss this about leopards: while lions rely on numbers and brute force, the leopard has quietly mastered a hu...
 
-In th...
-
-👉 Watch now: https://www.youtube.com/watch?v=FOS23LnB8Us
+👉 Watch now: https://www.youtube.com/watch?v=yOov66QDGUo
 
 **Hashtags:** #Wildlife #Nature #Conservation #YouTube
 
-**Thumbnail:** `https://i3.ytimg.com/vi/FOS23LnB8Us/hqdefault.jpg`
+**Thumbnail:** `https://i2.ytimg.com/vi/yOov66QDGUo/hqdefault.jpg`
 
 ---
 
