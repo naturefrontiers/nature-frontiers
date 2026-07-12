@@ -1,23 +1,21 @@
-# Social Media Queue - Generated 2026-07-06 18:54
+# Social Media Queue - Generated 2026-07-12 17:58
 
 > **Instructions:** Copy the content below for each video and post manually.
 
-## 🎥 Giant Anteater Claws Stop Jaguar. Nobody Expected This | Animal Behavior
+## 🎥 BRUTAL Jaguar Hunt Stopped by Fearless Giant Anteater | Pantanal Wildlife
 
 **Caption:**
-🌿 New Discovery! Giant Anteater Claws Stop Jaguar. Nobody Expected This | Animal Behavior
+🌿 New Discovery! BRUTAL Jaguar Hunt Stopped by Fearless Giant Anteater | Pantanal Wildlife
 
-The jaguar is the apex predator of South America — until 
-one Giant Anteater animal Behavior changed that story forever.
+Watch giant anteaters foraging in the wild across the vast savanna.
 
-Most people have never heard of a Giant Anteater stopping 
-a jaguar cold. But ...
+See these incredible animals in their natural habitat as they search for food. This footage captures their unique digging behavior ...
 
-👉 Watch now: https://www.youtube.com/watch?v=Ww8ObuvDza0
+👉 Watch now: https://www.youtube.com/shorts/dK3Ye2kAGHY
 
 **Hashtags:** #Wildlife #Nature #Conservation #YouTube
 
-**Thumbnail:** `https://i4.ytimg.com/vi/Ww8ObuvDza0/hqdefault.jpg`
+**Thumbnail:** `https://i1.ytimg.com/vi/dK3Ye2kAGHY/hqdefault.jpg`
 
 ---
 
