@@ -1,21 +1,21 @@
-# Social Media Queue - Generated 2026-07-12 17:58
+# Social Media Queue - Generated 2026-07-13 16:33
 
 > **Instructions:** Copy the content below for each video and post manually.
 
-## 🎥 BRUTAL Jaguar Hunt Stopped by Fearless Giant Anteater | Pantanal Wildlife
+## 🎥 Giant Crocodile vs Black Mamba. Okavango's Deadliest Ambush | Wildlife
 
 **Caption:**
-🌿 New Discovery! BRUTAL Jaguar Hunt Stopped by Fearless Giant Anteater | Pantanal Wildlife
+🌿 New Discovery! Giant Crocodile vs Black Mamba. Okavango's Deadliest Ambush | Wildlife
 
-Watch giant anteaters foraging in the wild across the vast savanna.
+Welcome back to Nature Frontiers — where the wild speaks louder than words.
 
-See these incredible animals in their natural habitat as they search for food. This footage captures their unique digging behavior ...
+In this episode we take you deep into the Okavango Wildlife, one of nature's most breathtaking animal encounters: Crocodile...
 
-👉 Watch now: https://www.youtube.com/shorts/dK3Ye2kAGHY
+👉 Watch now: https://www.youtube.com/watch?v=ds4qSnrR_oU
 
 **Hashtags:** #Wildlife #Nature #Conservation #YouTube
 
-**Thumbnail:** `https://i1.ytimg.com/vi/dK3Ye2kAGHY/hqdefault.jpg`
+**Thumbnail:** `https://i1.ytimg.com/vi/ds4qSnrR_oU/hqdefault.jpg`
 
 ---
 
