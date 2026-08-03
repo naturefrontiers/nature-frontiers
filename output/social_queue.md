@@ -1,38 +1,19 @@
-# Social Media Queue - Generated 2026-07-26 22:04
+# Social Media Queue - Generated 2026-08-03 00:05
 
 > **Instructions:** Copy the content below for each video and post manually.
 
-## 🎥 Honey Badger vs Black Mamba | Animal Immune to Africa's Deadliest Venom
+## 🎥 Honey Badger vs 40 Baboons vs a Leopard | Wildlife Facts
 
 **Caption:**
-🌿 New Discovery! Honey Badger vs Black Mamba | Animal Immune to Africa's Deadliest Venom
+🌿 New Discovery! Honey Badger vs 40 Baboons vs a Leopard | Wildlife Facts
 
-Honey Badger vs Black Mamba | The Animal Immune to Africa's Deadliest Venom - What happens when one of Africa's most fearless predators faces one of the world's deadliest snakes? In this wildlife docu...
+A honey badger picks a fight with forty screaming baboons — but the troop isn't the only thing hunting him tonight. A leopard has been waiting for exactly this kind of chaos. Watch the Kalahari's thre...
 
-👉 Watch now: https://www.youtube.com/watch?v=0si7isRzNAY
+👉 Watch now: https://www.youtube.com/watch?v=V1y4MR49lN8
 
 **Hashtags:** #Wildlife #Nature #Conservation #YouTube
 
-**Thumbnail:** `https://i1.ytimg.com/vi/0si7isRzNAY/hqdefault.jpg`
-
----
-
-## 🎥 Honey Badger vs Snake-Venom Doesn't Work #shorts #wildlife
-
-**Caption:**
-🌿 New Discovery! Honey Badger vs Snake-Venom Doesn't Work #shorts #wildlife
-
-Discover one of nature's most incredible creatures with Nature Frontiers.
-
-We explore fascinating animals, African predators, wildlife facts, and animal behavior around the world.
-
-Subscribe for more ...
-
-👉 Watch now: https://www.youtube.com/shorts/I-hJOL_aZD4
-
-**Hashtags:** #Wildlife #Nature #Conservation #YouTube
-
-**Thumbnail:** `https://i2.ytimg.com/vi/I-hJOL_aZD4/hqdefault.jpg`
+**Thumbnail:** `https://i3.ytimg.com/vi/V1y4MR49lN8/hqdefault.jpg`
 
 ---
 
