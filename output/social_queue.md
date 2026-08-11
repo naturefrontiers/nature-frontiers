@@ -1,19 +1,21 @@
-# Social Media Queue - Generated 2026-08-03 00:05
+# Social Media Queue - Generated 2026-08-11 16:03
 
 > **Instructions:** Copy the content below for each video and post manually.
 
-## 🎥 Honey Badger vs 40 Baboons vs a Leopard | Wildlife Facts
+## 🎥 Gustave Crocodile: Africa's Deadliest Man-Eater
 
 **Caption:**
-🌿 New Discovery! Honey Badger vs 40 Baboons vs a Leopard | Wildlife Facts
+🌿 New Discovery! Gustave Crocodile: Africa's Deadliest Man-Eater
 
-A honey badger picks a fight with forty screaming baboons — but the troop isn't the only thing hunting him tonight. A leopard has been waiting for exactly this kind of chaos. Watch the Kalahari's thre...
+Gustave the Crocodile — Is Africa's Most Feared Killer Still Alive?
 
-👉 Watch now: https://www.youtube.com/watch?v=V1y4MR49lN8
+Gustave the crocodile terrorized the shores of Lake Tanganyika and the Ruzizi River for over three decades, allegedly killing close...
+
+👉 Watch now: https://www.youtube.com/watch?v=WJUewuqlt7s
 
 **Hashtags:** #Wildlife #Nature #Conservation #YouTube
 
-**Thumbnail:** `https://i3.ytimg.com/vi/V1y4MR49lN8/hqdefault.jpg`
+**Thumbnail:** `https://i4.ytimg.com/vi/WJUewuqlt7s/hqdefault.jpg`
 
 ---
 
