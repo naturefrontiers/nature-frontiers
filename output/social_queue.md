@@ -1,21 +1,21 @@
-# Social Media Queue - Generated 2026-08-11 16:03
+# Social Media Queue - Generated 2026-08-13 11:46
 
 > **Instructions:** Copy the content below for each video and post manually.
 
-## 🎥 Gustave Crocodile: Africa's Deadliest Man-Eater
+## 🎥 Africa's Deadliest Man-Eater Is Still Hunting #shorts
 
 **Caption:**
-🌿 New Discovery! Gustave Crocodile: Africa's Deadliest Man-Eater
+🌿 New Discovery! Africa's Deadliest Man-Eater Is Still Hunting #shorts
 
-Gustave the Crocodile — Is Africa's Most Feared Killer Still Alive?
+300 victims. 0 captures. One Nile crocodile that's been terrorizing Africa for decades — and he's never been caught. 🐊
 
-Gustave the crocodile terrorized the shores of Lake Tanganyika and the Ruzizi River for over three decades, allegedly killing close...
+This is the true story of Gustave: a 20-foot, 1-ton Nile crocodile that scientis...
 
-👉 Watch now: https://www.youtube.com/watch?v=WJUewuqlt7s
+👉 Watch now: https://www.youtube.com/shorts/Y-_mg2a6x1I
 
 **Hashtags:** #Wildlife #Nature #Conservation #YouTube
 
-**Thumbnail:** `https://i4.ytimg.com/vi/WJUewuqlt7s/hqdefault.jpg`
+**Thumbnail:** `https://i2.ytimg.com/vi/Y-_mg2a6x1I/hqdefault.jpg`
 
 ---
 
