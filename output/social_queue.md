@@ -1,21 +1,19 @@
-# Social Media Queue - Generated 2026-08-13 11:46
+# Social Media Queue - Generated 2026-08-16 18:28
 
 > **Instructions:** Copy the content below for each video and post manually.
 
-## 🎥 Africa's Deadliest Man-Eater Is Still Hunting #shorts
+## 🎥 Wildlife VS Battles: African Animal Fight for Survival LIVE
 
 **Caption:**
-🌿 New Discovery! Africa's Deadliest Man-Eater Is Still Hunting #shorts
+🌿 New Discovery! Wildlife VS Battles: African Animal Fight for Survival LIVE
 
-300 victims. 0 captures. One Nile crocodile that's been terrorizing Africa for decades — and he's never been caught. 🐊
+24/7 live wildlife footage of Africa's fiercest predator confrontations — lion vs hyena, crocodile vs hippo, honey badger vs venomous snake, and more. Real documentary footage, no narration filler, st...
 
-This is the true story of Gustave: a 20-foot, 1-ton Nile crocodile that scientis...
-
-👉 Watch now: https://www.youtube.com/shorts/Y-_mg2a6x1I
+👉 Watch now: https://www.youtube.com/watch?v=mL-qXVatqJM
 
 **Hashtags:** #Wildlife #Nature #Conservation #YouTube
 
-**Thumbnail:** `https://i2.ytimg.com/vi/Y-_mg2a6x1I/hqdefault.jpg`
+**Thumbnail:** `https://i2.ytimg.com/vi/mL-qXVatqJM/hqdefault.jpg`
 
 ---
 
