@@ -1,21 +1,34 @@
-# Social Media Queue - Generated 2026-08-23 17:19
+# Social Media Queue - Generated 2026-08-24 23:21
 
 > **Instructions:** Copy the content below for each video and post manually.
 
-## 🎥 Ocean's Deadliest Predators — Full Shark Documentary Marathon
+## 🎥 30 Hyenas vs The King of The Jungle  Animal Documentary
 
 **Caption:**
-🌿 New Discovery! Ocean's Deadliest Predators — Full Shark Documentary Marathon
+🌿 New Discovery! 30 Hyenas vs The King of The Jungle  Animal Documentary
 
-A full marathon of our shark footage archive — great whites, tiger 
-sharks, bull sharks, and the ocean's apex predators in action, back to back, 
-with live commentary breaking down the biology behind ...
+30 Hyenas vs The King of The Jungle. In the African Wild, the Lion relies on power to hunt, the hyenas hunt in numbers. This livestream is about how these two African predators survive in a place wher...
 
-👉 Watch now: https://www.youtube.com/watch?v=mgXEq8mP87Q
+👉 Watch now: https://www.youtube.com/watch?v=HOiI80x1V0s
 
 **Hashtags:** #Wildlife #Nature #Conservation #YouTube
 
-**Thumbnail:** `https://i2.ytimg.com/vi/mgXEq8mP87Q/hqdefault.jpg`
+**Thumbnail:** `https://i1.ytimg.com/vi/HOiI80x1V0s/hqdefault.jpg`
+
+---
+
+## 🎥 30 Hyenas vs The King of The Jungle | Animal Documentary
+
+**Caption:**
+🌿 New Discovery! 30 Hyenas vs The King of The Jungle | Animal Documentary
+
+30 Hyenas vs The King of The Jungle. In the African Wild, the Lion relies on power to hunt, the hyenas hunt in numbers. This livestream is about how these two African predators survive in a place wher...
+
+👉 Watch now: https://www.youtube.com/watch?v=gSLYXNfSDHA
+
+**Hashtags:** #Wildlife #Nature #Conservation #YouTube
+
+**Thumbnail:** `https://i4.ytimg.com/vi/gSLYXNfSDHA/hqdefault.jpg`
 
 ---
 
