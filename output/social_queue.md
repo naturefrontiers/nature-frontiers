@@ -1,19 +1,19 @@
-# Social Media Queue - Generated 2026-08-25 22:26
+# Social Media Queue - Generated 2026-08-29 16:59
 
 > **Instructions:** Copy the content below for each video and post manually.
 
-## 🎥 Built Different: Why Tigers and Leopards Think Twice About Dholes
+## 🎥 Africa's Deadliest Rivalries — Lion, Hippo, Crocodile & Honey Badger
 
 **Caption:**
-🌿 New Discovery! Built Different: Why Tigers and Leopards Think Twice About Dholes
+🌿 New Discovery! Africa's Deadliest Rivalries — Lion, Hippo, Crocodile & Honey Badger
 
-Deep in Asia's forests, a pack of dogs the size of a Labrador makes tigers and leopards change their behavior. This documentary breaks down why — not through dramatic claims, but through what pack coo...
+Africa's Deadliest Rivalries — Lion, Hippo, Crocodile & Honey Badger - Join us live as we break down Africa's most brutal animal rivalries in real time — lion vs hyena, leopard vs lion, hippo vs croco...
 
-👉 Watch now: https://www.youtube.com/watch?v=sKQct7fYGRU
+👉 Watch now: https://www.youtube.com/watch?v=mmNXVQArQs8
 
 **Hashtags:** #Wildlife #Nature #Conservation #YouTube
 
-**Thumbnail:** `https://i4.ytimg.com/vi/sKQct7fYGRU/hqdefault.jpg`
+**Thumbnail:** `https://i2.ytimg.com/vi/mmNXVQArQs8/hqdefault.jpg`
 
 ---
 
