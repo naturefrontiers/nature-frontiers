@@ -1,19 +1,21 @@
-# Social Media Queue - Generated 2026-08-29 16:59
+# Social Media Queue - Generated 2026-09-01 09:12
 
 > **Instructions:** Copy the content below for each video and post manually.
 
-## 🎥 Africa's Deadliest Rivalries — Lion, Hippo, Crocodile & Honey Badger
+## 🎥 HIPPO ATTACK CROCODILE: AFRICA'S DEADLIEST RIVALRY
 
 **Caption:**
-🌿 New Discovery! Africa's Deadliest Rivalries — Lion, Hippo, Crocodile & Honey Badger
+🌿 New Discovery! HIPPO ATTACK CROCODILE: AFRICA'S DEADLIEST RIVALRY
 
-Africa's Deadliest Rivalries — Lion, Hippo, Crocodile & Honey Badger - Join us live as we break down Africa's most brutal animal rivalries in real time — lion vs hyena, leopard vs lion, hippo vs croco...
+HIPPO ATTACK CROCODILE: AFRICA'S DEADLIEST RIVALRY - Watch a Nile crocodile face off against a territorial hippo in this intense look at one of nature's longest-running battles.
 
-👉 Watch now: https://www.youtube.com/watch?v=mmNXVQArQs8
+This footage captures...
+
+👉 Watch now: https://www.youtube.com/watch?v=iFPhy2BLeYw
 
 **Hashtags:** #Wildlife #Nature #Conservation #YouTube
 
-**Thumbnail:** `https://i2.ytimg.com/vi/mmNXVQArQs8/hqdefault.jpg`
+**Thumbnail:** `https://i2.ytimg.com/vi/iFPhy2BLeYw/hqdefault.jpg`
 
 ---
 
