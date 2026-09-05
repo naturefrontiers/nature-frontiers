@@ -1,19 +1,22 @@
-# Social Media Queue - Generated 2026-09-05 12:25
+# Social Media Queue - Generated 2026-09-05 15:49
 
 > **Instructions:** Copy the content below for each video and post manually.
 
-## 🎥 Africa - Wild Animal Fights. Lion vs Crocodile
+## 🎥 LIVE Gustave the Crocodile — The Killer That's Never Been Caught
 
 **Caption:**
-🌿 New Discovery! Africa - Wild Animal Fights. Lion vs Crocodile
+🌿 New Discovery! LIVE Gustave the Crocodile — The Killer That's Never Been Caught
 
-Africa - Wild Animal Fights. Lion vs Crocodile. HYENAS, HIPPOS, LEOPARD, BABOONS. This livestream is about how the African predators survive in a place where only the strongest survive. Watch the full...
+Made with Restream Studio. Livestream on 30+ platforms at once via https://restream.io
 
-👉 Watch now: https://www.youtube.com/watch?v=hbRtiSAek4g
+LIVE: the true story of Gustave — the giant Nile crocodile that has evaded capture
+for over 30 years and is blam...
+
+👉 Watch now: https://www.youtube.com/watch?v=27KA98nStVQ
 
 **Hashtags:** #Wildlife #Nature #Conservation #YouTube
 
-**Thumbnail:** `https://i1.ytimg.com/vi/hbRtiSAek4g/hqdefault.jpg`
+**Thumbnail:** `https://i3.ytimg.com/vi/27KA98nStVQ/hqdefault.jpg`
 
 ---
 
