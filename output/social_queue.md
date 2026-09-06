@@ -1,22 +1,23 @@
-# Social Media Queue - Generated 2026-09-05 15:49
+# Social Media Queue - Generated 2026-09-06 10:22
 
 > **Instructions:** Copy the content below for each video and post manually.
 
-## 🎥 LIVE Gustave the Crocodile — The Killer That's Never Been Caught
+## 🎥 LIVE: Lion vs Hyena — Africa's Deadliest Rivalry
 
 **Caption:**
-🌿 New Discovery! LIVE Gustave the Crocodile — The Killer That's Never Been Caught
+🌿 New Discovery! LIVE: Lion vs Hyena — Africa's Deadliest Rivalry
 
-Made with Restream Studio. Livestream on 30+ platforms at once via https://restream.io
+LIVE: Lion vs Hyena — Africa's Deadliest Rivalry — real predator confrontations from
+across the African wild, plus the wildlife facts behind why these animals fight
+the way they do.
 
-LIVE: the true story of Gustave — the giant Nile crocodile that has evaded capture
-for over 30 years and is blam...
+Join this live st...
 
-👉 Watch now: https://www.youtube.com/watch?v=27KA98nStVQ
+👉 Watch now: https://www.youtube.com/watch?v=f76jm4d0g7g
 
 **Hashtags:** #Wildlife #Nature #Conservation #YouTube
 
-**Thumbnail:** `https://i3.ytimg.com/vi/27KA98nStVQ/hqdefault.jpg`
+**Thumbnail:** `https://i3.ytimg.com/vi/f76jm4d0g7g/hqdefault.jpg`
 
 ---
 
