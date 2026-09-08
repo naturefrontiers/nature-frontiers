@@ -1,21 +1,21 @@
-# Social Media Queue - Generated 2026-09-06 18:52
+# Social Media Queue - Generated 2026-09-08 10:42
 
 > **Instructions:** Copy the content below for each video and post manually.
 
-## 🎥 Orca vs Shark: Deep Ocean's Apex Predator Showdown
+## 🎥 GUSTAVE: Burundi's NILE Crocodile That Hunted 300 PEOPLE
 
 **Caption:**
-🌿 New Discovery! Orca vs Shark: Deep Ocean's Apex Predator Showdown
+🌿 New Discovery! GUSTAVE: Burundi's NILE Crocodile That Hunted 300 PEOPLE
 
-Orca vs shark, the ocean's ultimate power struggle. Watch real footage and break down why killer whales have become the one predator most sharks actively avoid — including great whites.
+For over two decades, a single Nile crocodile in Burundi was blamed for the de*ths of up to 300 people — and he was never caught.
 
-Join this liv...
+Gustave is the largest, most notorious Nile crocodile ever documented...
 
-👉 Watch now: https://www.youtube.com/watch?v=WN8VwZWVN2I
+👉 Watch now: https://www.youtube.com/watch?v=2JuPRlZmnqg
 
 **Hashtags:** #Wildlife #Nature #Conservation #YouTube
 
-**Thumbnail:** `https://i4.ytimg.com/vi/WN8VwZWVN2I/hqdefault.jpg`
+**Thumbnail:** `https://i3.ytimg.com/vi/2JuPRlZmnqg/hqdefault.jpg`
 
 ---
 
