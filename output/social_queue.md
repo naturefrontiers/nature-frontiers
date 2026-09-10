@@ -1,21 +1,21 @@
-# Social Media Queue - Generated 2026-09-08 10:42
+# Social Media Queue - Generated 2026-09-10 10:45
 
 > **Instructions:** Copy the content below for each video and post manually.
 
-## 🎥 GUSTAVE: Burundi's NILE Crocodile That Hunted 300 PEOPLE
+## 🎥 Crocodile vs Black Mamba — Africa's Deadliest Gamble
 
 **Caption:**
-🌿 New Discovery! GUSTAVE: Burundi's NILE Crocodile That Hunted 300 PEOPLE
+🌿 New Discovery! Crocodile vs Black Mamba — Africa's Deadliest Gamble
 
-For over two decades, a single Nile crocodile in Burundi was blamed for the de*ths of up to 300 people — and he was never caught.
+Crocodile vs black mamba, Africa's most dangerous gamble. Watch real footage and break down why winning this fight can still mean losing — even for the animal with the best odds.
 
-Gustave is the largest, most notorious Nile crocodile ever documented...
+Join this live strea...
 
-👉 Watch now: https://www.youtube.com/watch?v=2JuPRlZmnqg
+👉 Watch now: https://www.youtube.com/watch?v=b6BvGrL4Qk0
 
 **Hashtags:** #Wildlife #Nature #Conservation #YouTube
 
-**Thumbnail:** `https://i3.ytimg.com/vi/2JuPRlZmnqg/hqdefault.jpg`
+**Thumbnail:** `https://i3.ytimg.com/vi/b6BvGrL4Qk0/hqdefault.jpg`
 
 ---
 
