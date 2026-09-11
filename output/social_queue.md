@@ -1,21 +1,21 @@
-# Social Media Queue - Generated 2026-09-10 10:45
+# Social Media Queue - Generated 2026-09-11 17:34
 
 > **Instructions:** Copy the content below for each video and post manually.
 
-## 🎥 Crocodile vs Black Mamba — Africa's Deadliest Gamble
+## 🎥 🔴 LIVE PREMIERE: Lion vs Crocodile — The Truth Scientists Confirmed
 
 **Caption:**
-🌿 New Discovery! Crocodile vs Black Mamba — Africa's Deadliest Gamble
+🌿 New Discovery! 🔴 LIVE PREMIERE: Lion vs Crocodile — The Truth Scientists Confirmed
 
-Crocodile vs black mamba, Africa's most dangerous gamble. Watch real footage and break down why winning this fight can still mean losing — even for the animal with the best odds.
+Made with Restream Studio. Livestream on 30+ platforms at once via https://restream.io
 
-Join this live strea...
+Join us LIVE for the premiere of Episode 3 in the Lion vs Crocodile Files. Everyone's heard the claim: crocodile...
 
-👉 Watch now: https://www.youtube.com/watch?v=b6BvGrL4Qk0
+👉 Watch now: https://www.youtube.com/watch?v=xtiE_PFe2Jc
 
 **Hashtags:** #Wildlife #Nature #Conservation #YouTube
 
-**Thumbnail:** `https://i3.ytimg.com/vi/b6BvGrL4Qk0/hqdefault.jpg`
+**Thumbnail:** `https://i1.ytimg.com/vi/xtiE_PFe2Jc/hqdefault.jpg`
 
 ---
 
