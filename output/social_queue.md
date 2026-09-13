@@ -1,21 +1,19 @@
-# Social Media Queue - Generated 2026-09-11 17:34
+# Social Media Queue - Generated 2026-09-13 14:05
 
 > **Instructions:** Copy the content below for each video and post manually.
 
-## 🎥 🔴 LIVE PREMIERE: Lion vs Crocodile — The Truth Scientists Confirmed
+## 🎥 Lion vs Crocodile: The Truth Scientists Finally Proved
 
 **Caption:**
-🌿 New Discovery! 🔴 LIVE PREMIERE: Lion vs Crocodile — The Truth Scientists Confirmed
+🌿 New Discovery! Lion vs Crocodile: The Truth Scientists Finally Proved
 
-Made with Restream Studio. Livestream on 30+ platforms at once via https://restream.io
+Lion vs Crocodile: The Truth Scientists Finally Proved - They call it survival of the fittest — but what happens when two apex predators, one built for land and one for ambush, meet at the water's edg...
 
-Join us LIVE for the premiere of Episode 3 in the Lion vs Crocodile Files. Everyone's heard the claim: crocodile...
-
-👉 Watch now: https://www.youtube.com/watch?v=xtiE_PFe2Jc
+👉 Watch now: https://www.youtube.com/watch?v=A3FMmQ2yFRk
 
 **Hashtags:** #Wildlife #Nature #Conservation #YouTube
 
-**Thumbnail:** `https://i1.ytimg.com/vi/xtiE_PFe2Jc/hqdefault.jpg`
+**Thumbnail:** `https://i2.ytimg.com/vi/A3FMmQ2yFRk/hqdefault.jpg`
 
 ---
 
