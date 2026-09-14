@@ -1,19 +1,34 @@
-# Social Media Queue - Generated 2026-09-13 14:05
+# Social Media Queue - Generated 2026-09-14 11:58
 
 > **Instructions:** Copy the content below for each video and post manually.
 
-## 🎥 Lion vs Crocodile: The Truth Scientists Finally Proved
+## 🎥 Africa's Ultimate Predator War: 6 Animals. 2 Hours. The Truth Scientists Proved
 
 **Caption:**
-🌿 New Discovery! Lion vs Crocodile: The Truth Scientists Finally Proved
+🌿 New Discovery! Africa's Ultimate Predator War: 6 Animals. 2 Hours. The Truth Scientists Proved
 
-Lion vs Crocodile: The Truth Scientists Finally Proved - They call it survival of the fittest — but what happens when two apex predators, one built for land and one for ambush, meet at the water's edg...
+Six of Africa's deadliest predators. One brutal hierarchy. Over two hours of confrontations — Lion, Crocodile, Leopard, Hyena, Honey Badger, and African Wild Dogs — captured in real survival encounter...
 
-👉 Watch now: https://www.youtube.com/watch?v=A3FMmQ2yFRk
+👉 Watch now: https://www.youtube.com/watch?v=kkH6eMt6AcI
 
 **Hashtags:** #Wildlife #Nature #Conservation #YouTube
 
-**Thumbnail:** `https://i2.ytimg.com/vi/A3FMmQ2yFRk/hqdefault.jpg`
+**Thumbnail:** `https://i4.ytimg.com/vi/kkH6eMt6AcI/hqdefault.jpg`
+
+---
+
+## 🎥 Africa's Ultimate Predator War: 6 Animals. 2 Hours Deadly Fight
+
+**Caption:**
+🌿 New Discovery! Africa's Ultimate Predator War: 6 Animals. 2 Hours Deadly Fight
+
+Africa's Ultimate Predator War: 6 Animals. 2 Hours Deadly Fight - Six of Africa's deadliest predators. One brutal hierarchy. Over two hours of confrontations — Lion, Crocodile, Leopard, Hyena, Honey B...
+
+👉 Watch now: https://www.youtube.com/watch?v=A4Nw3giwFCE
+
+**Hashtags:** #Wildlife #Nature #Conservation #YouTube
+
+**Thumbnail:** `https://i2.ytimg.com/vi/A4Nw3giwFCE/hqdefault.jpg`
 
 ---
 
