@@ -1,19 +1,19 @@
-# Social Media Queue - Generated 2026-09-16 18:41
+# Social Media Queue - Generated 2026-09-17 00:09
 
 > **Instructions:** Copy the content below for each video and post manually.
 
-## 🎥 Lion vs Crocodile: The Savannah Water's Edge Gamble
+## 🎥 Africa's Ultimate Predator War:  The Truth Scientists Proved
 
 **Caption:**
-🌿 New Discovery! Lion vs Crocodile: The Savannah Water's Edge Gamble
+🌿 New Discovery! Africa's Ultimate Predator War:  The Truth Scientists Proved
 
-Lion vs Crocodile - Every drink at Africa's Savannah waterholes is a calculated risk. A lion pride knows the water's edge better than any other hunting ground — but it's also the one place where the c...
+Six of Africa's deadliest predators. One brutal hierarchy. Over two hours of confrontations — Lion, Crocodile, Leopard, Hyena, Honey Badger, and African Wild Dogs — captured in real survival encounter...
 
-👉 Watch now: https://www.youtube.com/watch?v=gmRxiAgAP5c
+👉 Watch now: https://www.youtube.com/watch?v=0l1a_GPBBQ0
 
 **Hashtags:** #Wildlife #Nature #Conservation #YouTube
 
-**Thumbnail:** `https://i4.ytimg.com/vi/gmRxiAgAP5c/hqdefault.jpg`
+**Thumbnail:** `https://i1.ytimg.com/vi/0l1a_GPBBQ0/hqdefault.jpg`
 
 ---
 
