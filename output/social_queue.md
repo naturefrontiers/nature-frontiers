@@ -1,19 +1,38 @@
-# Social Media Queue - Generated 2026-09-17 00:09
+# Social Media Queue - Generated 2026-09-18 13:25
 
 > **Instructions:** Copy the content below for each video and post manually.
 
-## 🎥 Africa's Ultimate Predator War:  The Truth Scientists Proved
+## 🎥 HONEY BADGER WARS: Wildest Animal Fights on Earth
 
 **Caption:**
-🌿 New Discovery! Africa's Ultimate Predator War:  The Truth Scientists Proved
+🌿 New Discovery! HONEY BADGER WARS: Wildest Animal Fights on Earth
 
-Six of Africa's deadliest predators. One brutal hierarchy. Over two hours of confrontations — Lion, Crocodile, Leopard, Hyena, Honey Badger, and African Wild Dogs — captured in real survival encounter...
+HONEY BADGER WARS: Wildest Animal Fights on Earth
 
-👉 Watch now: https://www.youtube.com/watch?v=0l1a_GPBBQ0
+Prepare to witness the most chaotic, intense, and jaw-dropping showdowns in the animal kingdom! In this massive LIVE stream event, we are linking Hon...
+
+👉 Watch now: https://www.youtube.com/watch?v=8Fg9CqPlOXE
 
 **Hashtags:** #Wildlife #Nature #Conservation #YouTube
 
-**Thumbnail:** `https://i1.ytimg.com/vi/0l1a_GPBBQ0/hqdefault.jpg`
+**Thumbnail:** `https://i1.ytimg.com/vi/8Fg9CqPlOXE/hqdefault.jpg`
+
+---
+
+## 🎥 HONEY BADGER WARS: Wildest Animal Fights on Earth
+
+**Caption:**
+🌿 New Discovery! HONEY BADGER WARS: Wildest Animal Fights on Earth
+
+HONEY BADGER WARS: Wildest Animal Fights on Earth
+
+Prepare to witness the most chaotic, intense, and jaw-dropping showdowns in the animal kingdom! In this massive LIVE stream event, we are linking Hon...
+
+👉 Watch now: https://www.youtube.com/watch?v=fGSfKcTfIik
+
+**Hashtags:** #Wildlife #Nature #Conservation #YouTube
+
+**Thumbnail:** `https://i3.ytimg.com/vi/fGSfKcTfIik/hqdefault.jpg`
 
 ---
 
