@@ -1,38 +1,19 @@
-# Social Media Queue - Generated 2026-09-23 15:19
+# Social Media Queue - Generated 2026-09-23 22:43
 
 > **Instructions:** Copy the content below for each video and post manually.
 
-## 🎥 From Africa - Honey Badger vs The Black Mamba: LIVE Marathon
+## 🎥 Apex Files: African Animals Exposed in Territorial Fights
 
 **Caption:**
-🌿 New Discovery! From Africa - Honey Badger vs The Black Mamba: LIVE Marathon
+🌿 New Discovery! Apex Files: African Animals Exposed in Territorial Fights
 
-Honey Badger Wars saga — back-to-back Wildlife Documentary action from Africa.
+Africa's savanna isn't shared peacefully — it's fought for, every single day. In this episode of Apex Files, we go inside the brutal territorial clashes that decide who eats, who breeds, and who survi...
 
-Watch the fearless Honey Badger (Ratel) face territory fights, a Black Mamba attack, venom, den raids and dangerous Afri...
-
-👉 Watch now: https://www.youtube.com/watch?v=N2LT5jgfGEo
+👉 Watch now: https://www.youtube.com/watch?v=fOmoV-NknWo
 
 **Hashtags:** #Wildlife #Nature #Conservation #YouTube
 
-**Thumbnail:** `https://i3.ytimg.com/vi/N2LT5jgfGEo/hqdefault.jpg`
-
----
-
-## 🎥 From Africa - Honey Badger vs The Black Mamba: LIVE Marathon
-
-**Caption:**
-🌿 New Discovery! From Africa - Honey Badger vs The Black Mamba: LIVE Marathon
-
-Honey Badger Wars saga — back-to-back Wildlife Documentary action from Africa.
-
-Watch the fearless Honey Badger (Ratel) face territory fights, a Black Mamba attack, venom, den raids and dangerous Afri...
-
-👉 Watch now: https://www.youtube.com/watch?v=IrsrVbg5RT4
-
-**Hashtags:** #Wildlife #Nature #Conservation #YouTube
-
-**Thumbnail:** `https://i2.ytimg.com/vi/IrsrVbg5RT4/hqdefault.jpg`
+**Thumbnail:** `https://i3.ytimg.com/vi/fOmoV-NknWo/hqdefault.jpg`
 
 ---
 
