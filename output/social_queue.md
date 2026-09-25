@@ -1,19 +1,21 @@
-# Social Media Queue - Generated 2026-09-24 22:00
+# Social Media Queue - Generated 2026-09-25 13:17
 
 > **Instructions:** Copy the content below for each video and post manually.
 
-## 🎥 Gustave: Africa's Most Wanted Predator Nobody Can Kill
+## 🎥 Apex Files: Honey Badger Wars Part 4 — "What They Try Instead"
 
 **Caption:**
-🌿 New Discovery! Gustave: Africa's Most Wanted Predator Nobody Can Kill
+🌿 New Discovery! Apex Files: Honey Badger Wars Part 4 — "What They Try Instead"
 
-Deep in Burundi's Ruzizi River and the shores of Lake Tanganyika lives a Nile crocodile so large, so old, and so lethal that local legend and scientific record have started to blur. Gustav is estimate...
+Scar the honey badger has survived leopards, hyenas, and a 12-strong wild dog pack — 
+so Africa's predators are adapting. In Part 4 of the Apex Files: Honey Badger Wars 
+series, we break down the shif...
 
-👉 Watch now: https://www.youtube.com/watch?v=MeeIweMTKWA
+👉 Watch now: https://www.youtube.com/watch?v=uc9JgyV_bdo
 
 **Hashtags:** #Wildlife #Nature #Conservation #YouTube
 
-**Thumbnail:** `https://i2.ytimg.com/vi/MeeIweMTKWA/hqdefault.jpg`
+**Thumbnail:** `https://i2.ytimg.com/vi/uc9JgyV_bdo/hqdefault.jpg`
 
 ---
 
