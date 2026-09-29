@@ -1,19 +1,22 @@
-# Social Media Queue - Generated 2026-09-28 11:28
+# Social Media Queue - Generated 2026-09-29 13:46
 
 > **Instructions:** Copy the content below for each video and post manually.
 
-## 🎥 Gustave Africa's Most Wanted Predator Nobody Can Kill
+## 🎥 Apex Files Honey Badger Wars Part 4. A Jackal Pack's Deadly Mistake
 
 **Caption:**
-🌿 New Discovery! Gustave Africa's Most Wanted Predator Nobody Can Kill
+🌿 New Discovery! Apex Files Honey Badger Wars Part 4. A Jackal Pack's Deadly Mistake
 
-Gustave is a giant Nile crocodile from Burundi's Ruzizi River and Lake Tanganyika, estimated at 18-20 feet and around 2,000 lbs, and blamed for as many as 300 human deaths. How much of that is documen...
+They stopped attacking the den directly. So they tried something else instead.
 
-👉 Watch now: https://www.youtube.com/watch?v=VSFqF47JHu0
+After three failed direct confrontations, the predators circling Scar's burrow 
+in Part 4 of Honey Badger Wars shift str...
+
+👉 Watch now: https://www.youtube.com/watch?v=9LUatfLOpo8
 
 **Hashtags:** #Wildlife #Nature #Conservation #YouTube
 
-**Thumbnail:** `https://i3.ytimg.com/vi/VSFqF47JHu0/hqdefault.jpg`
+**Thumbnail:** `https://i2.ytimg.com/vi/9LUatfLOpo8/hqdefault.jpg`
 
 ---
 
