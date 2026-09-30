@@ -1,4 +1,4 @@
-# Social Media Queue - Generated 2026-09-29 23:27
+# Social Media Queue - Generated 2026-09-30 10:55
 
 > **Instructions:** Copy the content below for each video and post manually.
 
@@ -7,33 +7,16 @@
 **Caption:**
 🌿 New Discovery! Africa's Deadliest Predators: 2 Hours of Real Kill-or-Be-Killed Encounters
 
+Made with Restream Studio. Livestream on 30+ platforms at once via https://restream.io
+
 Two hours inside the most dangerous stretch of wilderness on Earth — where 
-every encounter comes down to one rule: kill or be killed.
+every encounter comes down to one ru...
 
-This compilation brings together our most intense predator confr...
-
-👉 Watch now: https://www.youtube.com/watch?v=vV5wUfQdCnE
+👉 Watch now: https://www.youtube.com/watch?v=AEUT_PKPIjM
 
 **Hashtags:** #Wildlife #Nature #Conservation #YouTube
 
-**Thumbnail:** `https://i3.ytimg.com/vi/vV5wUfQdCnE/hqdefault.jpg`
-
----
-
-## 🎥 Apex Files: Honey Badger Wars Part 4 — "What They Try Instead
-
-**Caption:**
-🌿 New Discovery! Apex Files: Honey Badger Wars Part 4 — "What They Try Instead
-
-Follow a honey badger mother on a tense journey as she moves her cub, only to find a jackal waiting on her path.
-
-In this fourth installment of the Apex Files series, we analyze rare tracking collar f...
-
-👉 Watch now: https://www.youtube.com/watch?v=AQOkWJW0_Bs
-
-**Hashtags:** #Wildlife #Nature #Conservation #YouTube
-
-**Thumbnail:** `https://i2.ytimg.com/vi/AQOkWJW0_Bs/hqdefault.jpg`
+**Thumbnail:** `https://i2.ytimg.com/vi/AEUT_PKPIjM/hqdefault.jpg`
 
 ---
 
