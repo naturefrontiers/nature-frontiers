@@ -1,36 +1,39 @@
-# Social Media Queue - Generated 2026-10-02 23:34
+# Social Media Queue - Generated 2026-10-03 19:01
 
 > **Instructions:** Copy the content below for each video and post manually.
 
-## 🎥 Built Different: Grey Mongoose vs King Cobra | This Animal Kills Venom
+## 🎥 Built Different: Honey Badger Wars And Lion vs Crocodile | Animal Fight
 
 **Caption:**
-🌿 New Discovery! Built Different: Grey Mongoose vs King Cobra | This Animal Kills Venom
+🌿 New Discovery! Built Different: Honey Badger Wars And Lion vs Crocodile | Animal Fight
 
-Built Different: A mongoose stands her ground against a king cobra — one of the world's longest venomous snake — and walks away. This isn't luck, and it isn't fearlessness. It's one of the only docume...
+Built Different: A honey badger doesn't back down from anything — not even one of 
+Africa's largest constrictor snakes. In Part 1 of Honey Badger Wars, 
+we follow Scar defending his territory against ...
 
-👉 Watch now: https://www.youtube.com/watch?v=oG6h0-fm5nY
+👉 Watch now: https://www.youtube.com/watch?v=5sJZ8H5Y9go
 
 **Hashtags:** #Wildlife #Nature #Conservation #YouTube
 
-**Thumbnail:** `https://i4.ytimg.com/vi/oG6h0-fm5nY/hqdefault.jpg`
+**Thumbnail:** `https://i2.ytimg.com/vi/5sJZ8H5Y9go/hqdefault.jpg`
 
 ---
 
-## 🎥 Built Different: Grey Mongoose vs King Cobra | This Animal Kills Venom
+## 🎥 Built Different: Honey Badger Wars And Lion vs Crocodile | Animal Fight
 
 **Caption:**
-🌿 New Discovery! Built Different: Grey Mongoose vs King Cobra | This Animal Kills Venom
+🌿 New Discovery! Built Different: Honey Badger Wars And Lion vs Crocodile | Animal Fight
 
 Made with Restream Studio. Livestream on 30+ platforms at once via https://restream.io
 
-Built Different: A mongoose stands her ground against a king cobra — one of the world's longest venomous snake —...
+Built Different: A honey badger doesn't back down from anything — not even one of 
+Africa's largest constrictor ...
 
-👉 Watch now: https://www.youtube.com/watch?v=av6qMmxgd84
+👉 Watch now: https://www.youtube.com/watch?v=SEmBWYJBpZA
 
 **Hashtags:** #Wildlife #Nature #Conservation #YouTube
 
-**Thumbnail:** `https://i2.ytimg.com/vi/av6qMmxgd84/hqdefault.jpg`
+**Thumbnail:** `https://i4.ytimg.com/vi/SEmBWYJBpZA/hqdefault.jpg`
 
 ---
 
