@@ -1,41 +1,36 @@
-# Social Media Queue - Generated 2026-10-05 08:27
+# Social Media Queue - Generated 2026-10-05 17:58
 
 > **Instructions:** Copy the content below for each video and post manually.
 
-## 🎥 THE DEEP UNKNOWN Smart Strange And Dangerous Animals in the Ocean
+## 🎥 Crocodile Attack Africa's Deadliest Ambush Predator Explained
 
 **Caption:**
-🌿 New Discovery! THE DEEP UNKNOWN Smart Strange And Dangerous Animals in the Ocean
+🌿 New Discovery! Crocodile Attack Africa's Deadliest Ambush Predator Explained
 
-The ocean hides some of the smartest, strangest, and most dangerous 
-animals on Earth — and most of them never make it into mainstream 
-wildlife documentaries.
+The Nile crocodile has one of the strongest bite forces ever measured in the animal kingdom — and a hunting strategy virtually unchanged for over 200 million years. This is the complete Crocodile File...
 
-In this episode of The Deep Unknown, we...
-
-👉 Watch now: https://www.youtube.com/watch?v=A6Rx8QWzo0c
+👉 Watch now: https://www.youtube.com/watch?v=-DPMeKd3an0
 
 **Hashtags:** #Wildlife #Nature #Conservation #YouTube
 
-**Thumbnail:** `https://i2.ytimg.com/vi/A6Rx8QWzo0c/hqdefault.jpg`
+**Thumbnail:** `https://i2.ytimg.com/vi/-DPMeKd3an0/hqdefault.jpg`
 
 ---
 
-## 🎥 THE DEEP UNKNOWN Smart Strange And Dangerous Animals in the Ocean
+## 🎥 Crocodile Attack Africa's Deadliest Ambush Predator Explained
 
 **Caption:**
-🌿 New Discovery! THE DEEP UNKNOWN Smart Strange And Dangerous Animals in the Ocean
+🌿 New Discovery! Crocodile Attack Africa's Deadliest Ambush Predator Explained
 
 Made with Restream Studio. Livestream on 30+ platforms at once via https://restream.io
 
-The ocean hides some of the smartest, strangest, and most dangerous 
-animals on Earth — and most of them never m...
+The Nile crocodile has one of the strongest bite forces ever measured in the animal kingdom — and a hunting stra...
 
-👉 Watch now: https://www.youtube.com/watch?v=3LSs1_40H84
+👉 Watch now: https://www.youtube.com/watch?v=PVGqRN_Jsx4
 
 **Hashtags:** #Wildlife #Nature #Conservation #YouTube
 
-**Thumbnail:** `https://i4.ytimg.com/vi/3LSs1_40H84/hqdefault.jpg`
+**Thumbnail:** `https://i1.ytimg.com/vi/PVGqRN_Jsx4/hqdefault.jpg`
 
 ---
 
