@@ -1,21 +1,19 @@
-# Social Media Queue - Generated 2026-10-06 19:22
+# Social Media Queue - Generated 2026-10-06 23:36
 
 > **Instructions:** Copy the content below for each video and post manually.
 
-## 🎥 Honey Badger vs Everything: The Full Story (Apex Files — Full Episode)
+## 🎥 MONGOOSE VS KING COBRA | The World's Longest Venomous Snake
 
 **Caption:**
-🌿 New Discovery! Honey Badger vs Everything: The Full Story (Apex Files — Full Episode)
+🌿 New Discovery! MONGOOSE VS KING COBRA | The World's Longest Venomous Snake
 
-Made with Restream Studio. Livestream on 30+ platforms at once via https://restream.io
+Deep in a forest where the MONGOOSE and the world's longest venomous snake hunts. A grey mongoose does something that shouldn't be possible — she stands her ground against a king cobra, and walks away...
 
-One animal. A rock python. A baboon troop. A leopard. A hyena clan. A 12-strong wild dog pack. This is the compl...
-
-👉 Watch now: https://www.youtube.com/watch?v=h0VNczkwRZM
+👉 Watch now: https://www.youtube.com/watch?v=WzgxGuMV2w8
 
 **Hashtags:** #Wildlife #Nature #Conservation #YouTube
 
-**Thumbnail:** `https://i1.ytimg.com/vi/h0VNczkwRZM/hqdefault.jpg`
+**Thumbnail:** `https://i4.ytimg.com/vi/WzgxGuMV2w8/hqdefault.jpg`
 
 ---
 
