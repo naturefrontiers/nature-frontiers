@@ -1,19 +1,19 @@
-# Social Media Queue - Generated 2026-10-06 23:36
+# Social Media Queue - Generated 2026-10-09 18:01
 
 > **Instructions:** Copy the content below for each video and post manually.
 
-## 🎥 MONGOOSE VS KING COBRA | The World's Longest Venomous Snake
+## 🎥 Honey Badger vs Everything: Why Africa's Deadliest Animals Can't Kill It (Full Episode)
 
 **Caption:**
-🌿 New Discovery! MONGOOSE VS KING COBRA | The World's Longest Venomous Snake
+🌿 New Discovery! Honey Badger vs Everything: Why Africa's Deadliest Animals Can't Kill It (Full Episode)
 
-Deep in a forest where the MONGOOSE and the world's longest venomous snake hunts. A grey mongoose does something that shouldn't be possible — she stands her ground against a king cobra, and walks away...
+A honey badger fights lions, takes cobra bites, and walks away. This is the full story of the animal scientists call the most fearless predator in Africa — and why nothing has managed to kill it.In th...
 
-👉 Watch now: https://www.youtube.com/watch?v=WzgxGuMV2w8
+👉 Watch now: https://www.youtube.com/watch?v=dJW9kNZDB0g
 
 **Hashtags:** #Wildlife #Nature #Conservation #YouTube
 
-**Thumbnail:** `https://i4.ytimg.com/vi/WzgxGuMV2w8/hqdefault.jpg`
+**Thumbnail:** `https://i1.ytimg.com/vi/dJW9kNZDB0g/hqdefault.jpg`
 
 ---
 
