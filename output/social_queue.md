@@ -1,19 +1,21 @@
-# Social Media Queue - Generated 2026-10-12 10:19
+# Social Media Queue - Generated 2026-10-14 07:09
 
 > **Instructions:** Copy the content below for each video and post manually.
 
-## 🎥 Gustave: The Giant Crocodile Burundi Can't Kill (The Real Story)
+## 🎥 Honey Badger Wars: Wild Africa's Deadliest Animals FIght
 
 **Caption:**
-🌿 New Discovery! Gustave: The Giant Crocodile Burundi Can't Kill (The Real Story)
+🌿 New Discovery! Honey Badger Wars: Wild Africa's Deadliest Animals FIght
 
-Gustave is a giant Nile crocodile from Burundi's Ruzizi River and Lake Tanganyika, estimated at 18-20 feet and around 2,000 lbs, and blamed for as many as 300 human deaths. How much of that is documen...
+Watch the complete Honey Badger Wars: one honey badger against Africa's deadliest animals, in one continuous story.
 
-👉 Watch now: https://www.youtube.com/watch?v=pAYyeTA-jwk
+This full episode follows honey badgers through their toughest confrontations with ...
+
+👉 Watch now: https://www.youtube.com/watch?v=77aDTfePa8Q
 
 **Hashtags:** #Wildlife #Nature #Conservation #YouTube
 
-**Thumbnail:** `https://i1.ytimg.com/vi/pAYyeTA-jwk/hqdefault.jpg`
+**Thumbnail:** `https://i4.ytimg.com/vi/77aDTfePa8Q/hqdefault.jpg`
 
 ---
 
