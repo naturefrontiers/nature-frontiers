@@ -1,40 +1,19 @@
-# Social Media Queue - Generated 2026-10-16 19:21
+# Social Media Queue - Generated 2026-10-17 15:04
 
 > **Instructions:** Copy the content below for each video and post manually.
 
-## 🎥 Crocodile vs Black Mamba: The Deadly Encounter That Defies Size
+## 🎥 Lion vs Crocodile: Death at the Water’s Edge. Episode 4
 
 **Caption:**
-🌿 New Discovery! Crocodile vs Black Mamba: The Deadly Encounter That Defies Size
+🌿 New Discovery! Lion vs Crocodile: Death at the Water’s Edge. Episode 4
 
-Made with Restream Studio. Livestream on 30+ platforms at once via https://restream.io
+A lion vs crocodile encounter at an African waterhole is one of the most dangerous confrontations in the wild. On land, the lion is a powerful predator. Beneath the water, the Nile crocodile has a dea...
 
-Made with Restream Studio. Livestream on 30+ platforms at once via https://restream.io
-
-Made with Restream Studi...
-
-👉 Watch now: https://www.youtube.com/watch?v=PJWnU4Yglhc
+👉 Watch now: https://www.youtube.com/watch?v=biAHd7wzGGI
 
 **Hashtags:** #Wildlife #Nature #Conservation #YouTube
 
-**Thumbnail:** `https://i1.ytimg.com/vi/PJWnU4Yglhc/hqdefault.jpg`
-
----
-
-## 🎥 Chronicles of Nile Crocodiles VS Hippo And Venomous Snake
-
-**Caption:**
-🌿 New Discovery! Chronicles of Nile Crocodiles VS Hippo And Venomous Snake
-
-Made with Restream Studio. Livestream on 30+ platforms at once via https://restream.io
-
-Nile crocodiles, hippos and venomous snakes share the same riverbanks, and every meeting between them is a gambl...
-
-👉 Watch now: https://www.youtube.com/watch?v=UXjsMsuKnEs
-
-**Hashtags:** #Wildlife #Nature #Conservation #YouTube
-
-**Thumbnail:** `https://i2.ytimg.com/vi/UXjsMsuKnEs/hqdefault.jpg`
+**Thumbnail:** `https://i3.ytimg.com/vi/biAHd7wzGGI/hqdefault.jpg`
 
 ---
 
