@@ -1,36 +1,36 @@
-# Social Media Queue - Generated 2026-10-17 21:15
+# Social Media Queue - Generated 2026-10-20 22:11
 
 > **Instructions:** Copy the content below for each video and post manually.
 
-## 🎥 Honey Badger Wars:  Why It's  Built Different
+## 🎥 AN ANIMAL BUILT DIFFERENT: Honey Badger Wars | Part 1 - 5
 
 **Caption:**
-🌿 New Discovery! Honey Badger Wars:  Why It's  Built Different
+🌿 New Discovery! AN ANIMAL BUILT DIFFERENT: Honey Badger Wars | Part 1 - 5
 
-What makes the honey badger one of Africa’s most fearless and formidable wild animals? In Honey Badger Wars: An Animal Built Different, discover the extraordinary survival instincts, powerful claws, s...
+What makes the honey badger one of Africa’s most fearless and formidable animals? Discover the incredible adaptations that make this compact predator a force to be reckoned with in the African wildern...
 
-👉 Watch now: https://www.youtube.com/watch?v=PgufebxcozM
+👉 Watch now: https://www.youtube.com/watch?v=AwrnEP6VTm4
 
 **Hashtags:** #Wildlife #Nature #Conservation #YouTube
 
-**Thumbnail:** `https://i1.ytimg.com/vi/PgufebxcozM/hqdefault.jpg`
+**Thumbnail:** `https://i2.ytimg.com/vi/AwrnEP6VTm4/hqdefault.jpg`
 
 ---
 
-## 🎥 Honey Badger Wars:  Why It's  Built Different
+## 🎥 AN ANIMAL BUILT DIFFERENT: Honey Badger Wars | Part 1 - 5
 
 **Caption:**
-🌿 New Discovery! Honey Badger Wars:  Why It's  Built Different
+🌿 New Discovery! AN ANIMAL BUILT DIFFERENT: Honey Badger Wars | Part 1 - 5
 
 Made with Restream Studio. Livestream on 30+ platforms at once via https://restream.io
 
-What makes the honey badger one of Africa’s most fearless and formidable wild animals? In Honey Badger Wars: An ...
+What makes the honey badger one of Africa’s most fearless and formidable animals? Discover the incredible adapta...
 
-👉 Watch now: https://www.youtube.com/watch?v=dqUY_ykUKAE
+👉 Watch now: https://www.youtube.com/watch?v=UaDq9MyX0OE
 
 **Hashtags:** #Wildlife #Nature #Conservation #YouTube
 
-**Thumbnail:** `https://i1.ytimg.com/vi/dqUY_ykUKAE/hqdefault.jpg`
+**Thumbnail:** `https://i2.ytimg.com/vi/UaDq9MyX0OE/hqdefault.jpg`
 
 ---
 
