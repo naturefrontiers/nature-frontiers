@@ -1,19 +1,21 @@
-# Social Media Queue - Generated 2026-10-23 13:06
+# Social Media Queue - Generated 2026-10-24 00:18
 
 > **Instructions:** Copy the content below for each video and post manually.
 
-## 🎥 Lion vs Crocodile Animal Survival: What Science Says About the Odds
+## 🎥 Honey Badger Wars 5. He Picked The Wrong Burrow — What Happened Next Is Brutal
 
 **Caption:**
-🌿 New Discovery! Lion vs Crocodile Animal Survival: What Science Says About the Odds
+🌿 New Discovery! Honey Badger Wars 5. He Picked The Wrong Burrow — What Happened Next Is Brutal
 
-Lion vs crocodile: who wins when an African lion meets a Nile crocodile at the water's edge? We break down the biomechanics, terrain and odds behind this predator vs predator rivalry in animal surviva...
+HONEY BADGER WARS PART 5 — in this episode, one honey badger picks the wrong burrow, and the fight that follows rewrites the rules of animal survival.
 
-👉 Watch now: https://www.youtube.com/watch?v=0IUM5ArzjZ4
+A honey badger (ratel) has one of the most bruta...
+
+👉 Watch now: https://www.youtube.com/watch?v=-FNqlFvi8SY
 
 **Hashtags:** #Wildlife #Nature #Conservation #YouTube
 
-**Thumbnail:** `https://i1.ytimg.com/vi/0IUM5ArzjZ4/hqdefault.jpg`
+**Thumbnail:** `https://i2.ytimg.com/vi/-FNqlFvi8SY/hqdefault.jpg`
 
 ---
 
